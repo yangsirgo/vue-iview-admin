@@ -1,0 +1,33 @@
+.gridster{
+	width: inherit;
+	height: auto;
+    float: left;
+}
+
+.gridster ul{
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 100%;
+	max-width: calc(100% - 45px)
+}
+.gridster * {
+	margin: 0;
+	padding: 0;
+}
+
+.gridster li {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	max-width: 100%;
+	/*line-height: 100%;*/
+}
+.gridster .player {
+	opacity:0.5;
+}
+
+.gridster .preview-holder {
+	border: none !important;
+	background: red !important;
+}

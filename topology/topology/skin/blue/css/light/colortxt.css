@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*colortxt*/
+.txt_color{
+line-height: 25px;
+min-height: 25px;
+padding-left: 5px;
+padding-right: 5px;
+display: inline-block;
+color:#FFF;
+min-width:100px;
+word-break: break-all;
+}
+.txt_red{
+background-color:#F36266;
+}
+.txt_orange{
+background-color:#f29730;
+}
+.txt_blue{
+background-color: #38cdd3;
+}
+.txt_gray{
+background-color: #c8c6c6;
+}
+
+.txt_white{
+background-color: inherit;
+color: #828282;
+padding-left:0;
+}

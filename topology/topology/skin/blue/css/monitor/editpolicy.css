@@ -1,0 +1,1010 @@
+@charset "utf-8";
+/*init*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Microsoft YaHei", "黑体", "宋体", "Arial";
+}
+
+.clear {
+	clear: both;
+}
+
+img {
+	border: 0px;
+}
+
+a {
+	outline: none;
+}
+
+ul, li {
+	list-style: none;
+}
+
+
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+#world {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+/*leftparts z-index 100*/
+
+
+/*rightpart  z-index 50*/
+#wcontent {
+	position: absolute;
+	width: auto;
+	left: 52px;
+	right: 0px;
+	height: 100%;
+	background-color: #eee;
+	z-index: 50;
+}
+
+
+
+#wtleft {
+	float: left;
+	width: 250px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.nav_search_input1 {
+	height: 28px;
+	border: 1px solid #e5e5e5;
+	border-radius: 20px;
+	background: #efefef;
+	color: #c3c3c3;
+	margin-top: -4px;
+}
+
+
+
+
+
+
+
+#wtright {
+	float: right;
+	width: 350px;
+	padding-top: 20px;
+}
+
+#discover {
+	background-image: url(../images/discover.png);
+	height: 28px;
+	width: 130px;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#userctrl {
+	background-image: url(../images/userctrl.png);
+	height: 28px;
+	width: 110px;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+/*wmiddle*/
+.wmiddle {
+	width: auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	height: 500px;
+	margin-top: 15px;
+	background-color: #f4f4f4;
+}
+
+.wmtitle {
+	background-color: #e5e5e5;
+	height: 54px;
+}
+
+.wmname {
+	float: left;
+	width: 180px;
+	height: 54px;
+	padding-left: 20px;
+	line-height: 54px;
+	font-size: 16px;
+}
+
+.wmclose {
+	float: right;
+	margin-top: 16px;
+	margin-right: 20px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background-image: url(../images/icons/pop-close.png);
+}
+
+.wmbox {
+	width: auto;
+	padding-top: 20px;
+	height: auto;
+}
+
+.wmbox1 {
+	width: auto;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: auto;
+}
+
+.wtabbtns {
+	font-family: Arial, Microsoft YaHei;
+	width: 100%;
+	height: 40px;
+}
+
+.wintabbtns {
+	width: 100%;
+	height: 40px;
+}
+
+.wtbbtn {
+	position: relative;
+	float: left;
+	width: 120px;
+	height: 37px;
+	line-height: 37px;
+	cursor: pointer;
+	text-align: center;
+	color: #999;
+	padding-top: 3px;
+	font-size: 14px;
+}
+
+.wintbbtn {
+	position: relative;
+	float: left;
+	width: 120px;
+	height: 37px;
+	line-height: 37px;
+	cursor: pointer;
+	text-align: center;
+	color: #999;
+	padding-top: 3px;
+	font-size: 14px;
+}
+
+.wintbbtn1 {
+	position: relative;
+	float: left;
+	width: 120px;
+	height: 37px;
+	line-height: 37px;
+	cursor: pointer;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	padding-top: 3px;
+}
+
+.wtbon1 {
+	background-color: #eeeeee;
+	border-top: 3px solid #aeb6c3;
+	color: #000;
+	padding-top: 0px;
+}
+
+.wtbon {
+	background-color: #fff;
+	border-top: 3px solid #5faee3;
+	color: #000;
+	padding-top: 0px;
+}
+
+.wtabcons {
+	background-color: #fff;
+	
+}
+
+.wintabcons {
+	background-color: #eeeeee;
+	border-top: 1px solid #eeeeee;
+	padding-bottom: 15px;
+}
+
+.wtbcon {
+	padding-bottom: 15px;
+	display: none;
+}
+
+.wintbcon {
+	display: none;
+}
+
+/*1.选择资源左侧列表*/
+.wintbcon_left {
+	height: 490px;
+	width: 55%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 1px solid #dddddd;
+	background: #fff;
+}
+
+.wintbcon_left_title {
+	background: #e5e5e5;
+	height: 46px;
+}
+
+.wintbcon_left_title p {
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #8895a9;
+}
+
+.wintbcon_left_title ul {
+	margin-right: 10px;
+}
+
+.wintbcon_left_title ul li {
+	float: right;
+	margin-top: -20px;
+	font-size: 12px;
+	height: 36px;
+	width: 56px;
+	color: #FFF;
+}
+
+.datalist {
+	font-family: Arial, Microsoft YaHei;
+	background-color: #ffffff; /* 表格背景色 */
+	font-size: 14px;
+	margin-top: -4px;
+}
+
+.datalist th {
+	height: 30px;
+	background-color: #ffffff; /* 行名称背景色 */
+	color: #667892; /* 行名称颜色 */
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: Arial, Microsoft YaHei;
+}
+
+.datalist tr:hover {
+	background: #f4f4f4;
+}
+
+.datalist td {
+	border-top: 1px solid #dddddd;
+	text-align: left;
+	padding-left: 16px;
+	padding-right: 16px;
+	line-height: 34px;
+}
+
+/*1.选择资源右侧列表*/
+.wintbcon_right {
+	height: 490px;
+	width: 40%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 1px solid #dddddd;
+	background: #FFF;
+}
+
+.wintbcon_right_title {
+	background: #e5e5e5;
+	height: 46px;
+}
+
+.wintbcon_right_title p {
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #8895a9;
+}
+
+.bluebtn {
+	background-color: #5FAEE3;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFF;
+	font-size: 14px;
+	float: left;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.bluebtn a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.bluebtn:hover {
+	background: #009ace;
+}
+
+.bluebtn1 {
+	background-color: #5FAEE3;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFF;
+	font-size: 14px;
+	float: left;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+/***详细信息***/
+.wblanktitle {
+	padding-left: 12px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.wblanktitle p {
+	margin-left: 10px;
+	float: left;
+	line-height: 32px;
+	height: 32px;
+	font-size: 14px;
+}
+
+.warning {
+	width: 32px;
+	height: 32px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.selector {
+	height: 32px;
+	width: 320px;
+	line-height: 32px;
+	border: 1px solid #eee;
+	color: #000;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	padding-left: 5px;
+	font-family: "Microsoft YaHei";
+}
+
+.winfobtn {
+	background-image: url(../../images/icons/hex-info.png);
+	height: 32px;
+	width: 32px;
+	float: left;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-top: 3px;
+	cursor: pointer;
+	position: relative;
+}
+
+.winfo {
+	width: 520px;
+	height: 250px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 9999;
+	background-color: #fff;
+	display: none;
+	border: 10px solid hsla(0, 0%, 20%, .4);
+	background-clip: padding-box;
+}
+
+.winfotitle {
+	height: 40px;
+	width: 100%;
+	background-color: #e5e5e5;
+}
+
+.winfoname {
+	height: 40px;
+	padding-left: 20px;
+	line-height: 40px;
+	color: #000;
+	float: left;
+	width: 100px;
+}
+
+.winfoclose {
+	background-image: url(../images/icons/pop-close.png);
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.winfocon ul {
+	padding-top: 30px;
+}
+
+.winfocon ul li {
+	float: left;
+	width: 420px;
+	height: 40px;
+	font-size: 14px;
+	padding-left: 40px;
+}
+
+.runtimer {
+	float: right;
+	width: 240px;
+	height: 34px;
+	line-height: 34px;
+	margin-top: -45px;
+}
+
+.runtimer ul li {
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+
+.runtimer1 {
+	float: right;
+	width: 240px;
+	height: 34px;
+	line-height: 34px;
+	color: #4f4f4f;
+	margin-top: 30px;
+	margin-right: -18px;
+}
+
+.runtimer1 ul li {
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+
+.runtimer3 {
+	float: right;
+	width: 240px;
+	height: 34px;
+	line-height: 34px;
+	color: #4f4f4f;
+	margin-top: -45px;
+}
+
+.runtimer3 ul li {
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+
+.datagrade1 table {
+	margin-left: -30px;
+}
+
+.datagrade table tr th {
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #ddd;
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: left;
+}
+
+.datagrade table tr td {
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: left;
+	color: #333;
+}
+
+.datagrade1 table tr th {
+	border-bottom: 1px solid #dddddd;
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: left;
+	background: #000;
+}
+
+.datagrade1 table tr td {
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: left;
+	color: #333;
+}
+
+tr.lineup td {
+	border-top: 1px solid #dddddd;
+}
+
+.lineup_img {
+	background-position: center center;
+}
+
+.linedown {
+	display: none;
+}
+
+.linedowncon {
+	margin: 20px;
+	background-color: #dddddd;
+}
+
+.lineopen {
+	width: 25px;
+	height: 25px;
+	background-image: url(../images/lineopen.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.lineclose {
+	width: 25px;
+	height: 25px;
+	background-image: url(../images/lineclose.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.graybox {
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 100%;
+}
+
+.grayboxtitle {
+	height: 37px;
+	width: 100%;
+	background-color: #E5E5E5;
+}
+
+.grayboxname {
+	height: 37px;
+	padding-left: 20px;
+	line-height: 37px;
+	float: left;
+	color: #5289A3;
+	font-size: 16px;
+}
+
+.interfacelist {
+	height: 460px;
+	width: 260px;
+	overflow: auto;
+	position: absolute;
+	z-index: 100;
+	border: 1px solid #dddddd;
+}
+
+.interfacelist ul li {
+	display: block;
+	height: 30px;
+	width: 243px;
+	line-height: 30px;
+	border-bottom: 1px solid #eee;
+	cursor: pointer;
+	font-size: 14px;
+	text-indent: 20px;
+	margin-top: 2px;
+}
+
+.interfacetable {
+	position: absolute;
+	z-index: 100;
+	width: auto;
+	left: 310px;
+	right: 10px;
+	height: 200px;
+	z-index: 100;
+}
+
+
+
+/*网络接口弹出窗口*/
+.selectbluebtn {
+	float: left;
+	height: 37px;
+	width: 120px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.btnname {
+	width: 120px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	color: #999;
+	float: left;
+	font-size: 14px;
+}
+
+.btnname1 {
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 34px;
+	float: left;
+	font-size: 14px;
+}
+
+.btnarrow {
+	width: 25px;
+	height: 34px;
+	float: left;
+	background-image: url(../images/selectbtn.png);
+	background-repeat: no-repeat;
+}
+
+.btnselector {
+	width: 320px;
+	position: absolute;
+	z-index: 140;
+	top: 30px;
+	display: none;
+}
+/*
+.btnlistarrow{
+position:absolute;
+z-index:150;
+width:17px;
+height:10px;
+top:1px;
+right:10px;
+background-image:url(../images/btnlistarrow.png);
+background-repeat:no-repeat;
+}
+*/
+ul.btnselectorlist {
+	display: block;
+	background-color: #f4f4f4;
+	margin-left: -10px;
+}
+
+ul.btnselectorlist li {
+	padding-right: 168px;
+	height: 38px;
+	padding-top: 4px;
+	line-height: 38px;
+	font-size: 14px;
+}
+
+ul.btnselectorlist li img {
+	margin-top: 3px;
+}
+
+ul.btnselectorlist1 {
+	display: block;
+	background-color: #fff;
+	margin-left: -10px;
+	box-shadow: 5px 5px 1px rgba(0, 0, 0, .2);
+	margin-top: 6px;
+}
+
+ul.btnselectorlist1 li {
+	padding-right: 168px;
+	height: 38px;
+	padding-top: 4px;
+	line-height: 38px;
+	font-size: 14px;
+}
+
+ul.btnselectorlist1 li img {
+	margin-top: 3px;
+}
+
+/*指标定义*/
+.target {
+	height: auto;
+	width: auto;
+	margin: 20px;
+}
+
+.datalist1 {
+	font-family: Arial, Microsoft YaHei;
+	font-size: 14px;
+	margin-left: 20px;	
+}
+
+.datalist1 th {
+	height: 30px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: Arial, Microsoft YaHei;
+}
+
+.datalist1 tr td {
+	border-top: 1px solid #dddddd;
+	text-align: left;
+	padding-left: 8px;
+	padding-right: 16px;
+	height: 20px;
+}
+
+.graytxt1 {
+	color: #7f7f7f;
+}
+
+/*事件定义*/
+.datalist2 {
+	font-family: Arial, Microsoft YaHei;
+	background-color: #ffffff; /* 表格背景色 */
+	font-size: 14px;
+	margin-left: 20px;
+	border: 1px solid #dddddd;
+}
+
+.datalist2 th {
+	height: 30px;
+	background-color: #ffffff; /* 行名称背景色 */
+	color: #667892; /* 行名称颜色 */
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: Arial, Microsoft YaHei;
+}
+
+.datalist2 tr td {
+	border-top: 1px solid #dddddd;
+	text-align: left;
+	padding-left: 16px;
+	padding-right: 16px;
+	height: 36px;
+}
+
+/*告警规则*/
+.datalist3 {
+	font-family: Arial, Microsoft YaHei;
+	background-color: #ffffff; /* 表格背景色 */
+	font-size: 14px;
+	margin-left: 20px;
+	border: 1px solid #dddddd;
+}
+
+.datalist3 th {
+	height: 30px;
+	background-color: #ffffff; /* 行名称背景色 */
+	color: #667892; /* 行名称颜色 */
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-family: Arial, Microsoft YaHei;
+}
+
+.datalist3 tr td {
+	border-top: 1px solid #dddddd;
+	text-align: left;
+	padding-left: 16px;
+	padding-right: 16px;
+	height: 36px;
+}
+
+.new_object {
+	background-color: #e1e5ec;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	float: right;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.new_object a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*网络接口*/
+.runtimer2 {
+	float: right;
+	width: 240px;
+	height: 34px;
+	line-height: 34px;
+	color: #4f4f4f;
+	margin-top: 55px;
+	margin-bottom: 15px;
+	margin-right: -10px;
+}
+
+.runtimer2 ul li {
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*网络接口*/
+.network {
+	height: 560px;
+	width: 97.5%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+}
+
+.network_title {
+	background: #e5e5e5;
+	height: 46px;
+}
+
+.network_title p {
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #8895a9;
+}
+
+.network_title ul {
+	margin-right: 10px;
+}
+
+.network_title ul li {
+	float: right;
+	margin-top: -20px;
+	font-size: 12px;
+	height: 36px;
+	width: 56px;
+	color: #FFF;
+}
+
+/*翻页*/
+.right_filp {
+	width: 100%;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 15px;
+}
+
+.right_filp select {
+	margin-right: 10px;
+	float: right;
+}
+
+.right_filp a {
+	float: right;
+	border-right: #e5e5e5 1px solid;
+	height: 30px;
+	width: 40px;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	color: #337ab7;
+}
+
+.fanye {
+	float: right;
+	border: #e5e5e5 1px solid;
+	margin-right: 29px;
+	height: 30px;
+	font-family: Arial, Microsoft YaHei;
+}
+
+.fanye img {
+	padding-top: 11px;
+}
+
+/*网络接口*/
+.network_left {
+	height: 490px;
+	width: 50%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 1px solid #dddddd;
+	background: #fff;
+	margin-right: 20px;
+}
+
+.network_right {
+	height: 490px;
+	width: 43%;
+	float: left;
+	margin-top: 20px;
+	border: 1px solid #dddddd;
+	background: #FFF;
+}
+
+.network_button {
+	float: left;
+	width: 2%;
+	height: 490px;
+	margin-top: 200px;
+	margin-left: -10px;
+}
+
+.network_button ul li {
+	margin-top: 10px;
+}
+
+/*网络接口*/
+.runtimer4 {
+	float: right;
+	width: 240px;
+	height: 34px;
+	line-height: 34px;
+	color: #4f4f4f;
+	margin-top: 105px;
+	margin-bottom: 15px;
+	margin-right: -10px;
+}
+
+.runtimer4 ul li {
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+
+.policyselect {
+	width: 70px;
+	height: 24px;
+	border: #e5e5e5 1px solid;
+	font-family: Microsoft YaHei;
+}
+
+.policyinput {
+	width: 70px;
+	height: 24px;
+	border: #e5e5e5 1px solid;
+	font-family: Microsoft YaHei;
+}
+
+/*on off按钮*/
+.on_off_btn {
+	margin-left: -8px;
+	padding-top: 10px;
+}
+
+.check_label_span {
+	padding-left: 14px;
+	margin-top: -5px;
+	display: inline-block;
+	font-size: 10px
+}
+
+.poweroff {
+	padding-left: 14px;
+	margin-top: -5px;
+	display: inline-block;
+	font-size: 10px
+}

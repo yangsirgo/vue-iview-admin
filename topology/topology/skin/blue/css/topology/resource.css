@@ -1,0 +1,96 @@
+.status {
+	float: left;
+	width: 17px;
+	height: 17px;
+	border-radius: 17px;
+	margin: auto;
+	background-repeat: no-repeat;
+}
+
+.txt_color {
+	line-height: 25px;
+	height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+	color: #FFF;
+	min-width: 100px;
+}
+
+.interface {
+	width: 17px;
+	height: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	margin-top: 8px;
+}
+.name {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.on-line {
+	background-image: url(../../images/icons/port/list_port_green.png);
+}
+
+.close {
+	background-image: url(../../images/icons/port/list_port_red.png);
+}
+
+.unnormal {
+	background-image:
+		url(../../images/icons/port/list_port_green_yellow.png);
+}
+
+.off-line {
+	background-image: url(../../images/icons/port/list_port_gray.png);
+}
+
+.unmonitor {
+	background-image: url(../../images/icons/port/status-forbidden-gary.png);
+}
+
+.MetricPerfSeriousStateId {
+	background-color: #F36266;
+}
+
+.MetricPerfMinorStateId {
+	background-color: #f29730;
+}
+
+.MetricPerfNormalStateId {
+	background-color: #38cdd3;
+}
+
+.MetricCannotFetchPerfDataStateId {
+	background-color: #c8c6c6;
+}
+
+.txt_white {
+	background-color: inherit;
+	color: #828282;
+	padding-left: 0;
+}
+.stateline{
+width:26px;
+height:9px;
+background-position:center center;
+background-repeat:no-repeat;
+margin-left:auto;
+margin-right:auto;
+}
+.stateline_blue {
+	background-image: url(../../images/topology/stateline/list_stateline.png);
+}
+.stateline_yellow {
+	background-image: url(../../images/topology/stateline/list_stateline_yellow.png);
+}
+.stateline_gray {
+	background-image: url(../../images/topology/stateline/list_stateline.png);
+}
+.stateline_red{
+	background-image: url(../../images/topology/stateline/list_stateline.png);
+}

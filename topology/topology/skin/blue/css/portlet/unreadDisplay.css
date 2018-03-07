@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+.blue_txt_max {
+    height: 26px;
+    line-height: 26px;
+    color: #FFF;
+    background: #5faee3;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+.moreimage{
+    background-repeat:no-repeat;
+    background-position: 2px 11px;
+    width: 30px;
+    height: 30px;
+    display:inline-block;
+}
+.cursor{
+	cursor:pointer;
+}

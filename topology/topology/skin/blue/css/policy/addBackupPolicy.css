@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+.text_input {
+	height:30px;
+	width:300px;
+	font-family:Microsoft YaHei;
+	font-size:14px;
+	margin-left:15px;
+	padding-left:3px;
+	padding: 0 5px;
+}
+#comment{
+	width: 600px;
+}
+.clock_box{
+	float: left;
+	width: 110px;
+	margin-left: 15px;
+}
+#sel_time, #weeklist, #daylist, #sel_date{
+	float: left;
+	width: 100px;
+}
+.policyInfoBox{
+	width:100%;
+	margin-top: 12px;
+}
+
+.policyInfoBox tr td{
+	height: 45px;
+	font-size: 14px;
+}
+
+.policyInfoBox tr td:first-child{
+	text-align: right;
+	width: 12%;
+}
+
+.policyInfoBox tr td:last-child{
+	text-align: left;
+	width: 80%;
+}
+
+.required{
+	color: red;
+    margin-right: 10px;
+}
+.backup_policy_title {
+    height: 32px;
+    background: #e5e5e5;
+    font-size: 14px;
+    padding-left: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.alarmType{
+	margin-left:15px;
+}
+.preview{
+	background: #5faee3;
+    height: 20px;
+    width: 40px;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.receiver{
+	background: #e5e5e5;
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    margin: 5px;
+    display: inline-block;
+    padding-left: 5px;
+}
+.del_btn{
+	width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url(../../images/icons/context_menu_delete.png) center no-repeat;
+    float: right;
+    margin: 8px 3px;
+}
+.choose_btn {
+    background: #e5e5e5;
+    height: 32px;
+    width: 70px;
+    line-height: 32px;
+    text-align: center;
+    margin: 5px 0;
+    display: inline-block;
+    cursor:pointer;
+}
+.resource_title{
+	height: 40px;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.resource_title p {
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 20px;
+    float: left;
+    margin-bottom: 0;
+}
+.search_input{
+	float: right;
+    margin: 6px;
+}
+.delete_icon_select {
+    background: url(../../images/icons/small-delete-white.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.delete_icon_select:hover{
+	background-position:0px -25px;
+}
+.add_icon_select {
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.add_icon_select:hover{
+	background-position:0px -26px;
+}
+.form-control{
+	height: 30px;
+}
+.resourceBox{
+	/* min-height: 219px; */
+	min-height: 371px;
+    position: relative;
+    top: 50px;
+}
+
+.selectresource {
+    height: 40px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.search_term {
+    height: 28px;
+    width: 250px;
+    margin-top: 11px;
+    margin-left: 12px;
+    padding-left: 6px;
+    font-family: Microsoft YaHei;
+}
+.xllb{
+	background-image: url(../../images/dataTables/list_input.png);
+	background-repeat: no-repeat;
+    background-position: right center;
+}
+.category_tree {
+    display: none;
+    position: fixed;
+    max-height: 320px;
+    overflow: auto;
+    z-index: 100;
+    width: 250px;
+    padding: 0 5px;
+}
+.selectresource .magnifying {
+    margin-left: -35px;
+    vertical-align: middle;
+}
+.selectresource_main {
+    height: 472px;
+    margin-top: 16px;
+    overflow: auto;
+}
+.checkbox1 {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.res_del {
+	width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: url(../../images/icons/pop-delete.png) center no-repeat;
+    margin-left: 15px;
+}
+
+.policy_select{
+	height: 24px;
+    width: 120px;
+    border: 1px solid #e5e5e5;
+    font-family: Microsoft YaHei;
+}

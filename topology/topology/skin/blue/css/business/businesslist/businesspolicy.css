@@ -1,0 +1,363 @@
+body{font-size:14px;border
+}
+.wtabsbox{
+	margin:20px;
+}
+.statusdef{
+	margin:20px;
+}
+.statustitle{
+	height:30px;
+}
+.light_info{
+    display: inline-block;
+    margin-right: 40px;
+    float: right;
+}
+.statustitle ul li{
+	margin-left:20px;
+	float:left;
+}
+.statuscontent{
+	background-color: #fff;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.statuscontent ul li{
+	margin-left:20px;
+	height:40px;
+	width:98%;
+	line-height:40px;
+}
+.status_serious{
+	width:16px;
+	height:16px;
+	background-color:red;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.status_abnormal{
+	width:16px;
+	height:16px;
+	background-color:#ff8000;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.status_lock{
+	width:16px;
+	height:16px;
+	display: inline-block;
+    background-image: url(../../../images/business/status-forbidden-gary.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.status_unknow{
+	width:16px;
+	height:16px;
+	background-color:#c0c0c0;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+
+.status_normal{
+	width:16px;
+	height:16px;
+	background-color:#66d8db;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.status_red{
+	width:16px;
+	height:16px;
+	background-color:red;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.status_orange{
+	width:16px;
+	height:16px;
+	background-color:#ff8000;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+
+.status_gray{
+	width:16px;
+	height:16px;
+	background-color:#c0c0c0;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+
+.status_green{
+	width:16px;
+	height:16px;
+	background-color:#66d8db;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+
+.status_radio{
+	vertical-align: middle;
+    margin-left:20px;
+}
+
+.border{
+	border:#e5e5e5 1px solid;
+}
+.left10{
+	margin-left: 10px;
+}
+.left20{
+	margin-left: 20px;
+}
+.btnicon{
+	height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.deleteicon{
+	display: inline-block;
+    background-image: url(../../../images/dataTables/pop-delete-small.png);
+    text-indent: -9999px;
+}
+
+.addicon{
+	display: inline-block;
+	background-image: url(../../../images/inpage/blue-add.png);
+}
+.inputstatus{
+	width: 70px;
+    height: 24px;
+    border: #e5e5e5 1px solid;
+}
+.selectstatus{
+	height: 24px;
+    width: 100px;
+    border: #e5e5e5 1px solid;
+}
+
+.greyinfo{
+	color: #afb7c3; 
+	margin-top: 20px; 
+	display: inline-block
+}
+.datalist{
+	border: 1px solid #dddddd;
+}
+    
+.datalist tr{
+	font-size:14px;
+	background-color:#fff;
+	height: 40px;
+}
+
+.datalist thead tr th{
+    color: #667892;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.btns{
+	padding-bottom: 20px;
+    padding-top: 20px;
+    width: 96%;
+	background: #fff;
+	bottom:0px;
+	position:absolute;
+}
+.btnpolicy{
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:20px;
+    float: right;
+}
+.blackcolor{
+	color:#000;
+}
+.whitecolor{
+	color:#FFF;
+}
+.resetbgcolor{
+	background-color:#AED3EB;
+}
+
+.savebgcolor{
+	background-color:#f36266;
+}
+
+.cancelbgcolor{
+	background-color:#e5e5e5;
+}
+
+.insertbgcolor{
+	background-color:#e1e5ec;;
+}
+
+.wtabcons{
+	overflow:auto;
+}
+.userTree{
+	margin-left: 20px;
+    margin-top: 20px;
+}
+.fl {
+    float: left;
+}
+.hxipcell {
+    display: block;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.hxipname {
+    float: left;
+    white-space: nowrap;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.hxipdel {
+    background-image: url(../../../images/pageform/pop-delete.png);
+    background-position: center center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    float: right;
+}
+.timepicers {
+    width: 640px;
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.timepicer table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.timepicer table tr td {
+    padding: 4px;
+}
+.timepicer select {
+    height: 32px;
+    width: 70px;
+    font-size:14px;
+}
+.timepicer {
+    padding-left: 10px;
+}
+.input-group {
+    width: 100px;
+}
+
+span.deleteRule {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: center center;
+    background-image: url(../../../images/dataTables/pop-delete-small.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+div.error {
+    position: absolute;
+    color: #FF0000;
+    bottom: 20px;
+    background-color: #FFFFE5;
+    width: 150px;
+    left: -10px;
+    box-shadow: #ccc 2px 2px 2px;
+    z-index: 9;
+    line-height: 20px;
+    padding: 5px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size:12px;
+}
+
+.margin10{
+	margin-left:10px;
+}
+
+.arrow-down{
+    bottom: 12px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #ccc;
+    font-size: 0px;
+    line-height: 0px;
+    z-index: 19;
+    left: -2px;
+}
+
+.arrow-down-in{
+    bottom: 2px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #FFFFE5;
+    font-size: 0px;
+    line-height: 0px;
+    z-index: 19;
+    left: -8px;
+}

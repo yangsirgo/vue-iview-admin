@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+.hxipcell {
+	display: block;
+	padding-left: 10px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	overflow:hidden;
+}
+.hxipcell table tr td{
+padding:0px;
+}
+.hxipdel {
+	background-image: url(../../images/pageform/pop-delete.png);
+	background-position: center center;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.hxipdelon {
+	background-image: url(../../images/pageform/pop-delete-on.png);
+}
+
+.hxipname {
+	float: left;
+	white-space : nowrap;
+	max-width:339px;
+	overflow:hidden;
+}
+
+.input-group {
+	width: 100px;
+}
+
+.timepicers {
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.timepicer {
+	padding-left: 10px;
+}
+.timepicer table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+.timepicer table tr td {
+	padding: 4px;
+}
+
+.timepicer select {
+	height: 32px;
+	width: 70px;
+}
+
+.definetime {
+	padding-left: 15px;
+}
+
+div.error {
+	position: absolute;
+	color: #FF0000;
+	bottom: 8px;
+	background-color: #FFFFE5;
+	width: 150px;
+	left: -10px;
+	box-shadow: #ccc 2px 2px 2px;
+	z-index: 9;
+	line-height: 20px;
+	padding: 5px;
+	-moz-border-radius: 3px; /* Gecko browsers */
+	-webkit-border-radius: 3px; /* Webkit browsers */
+	border-radius: 3px; /* W3C syntax */
+}
+
+.arrow-down {
+	bottom: 0px;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #ccc;
+	font-size: 0px;
+	line-height: 0px;
+	z-index: 19;
+	left: -2px;
+}
+
+.arrow-down-in {
+	bottom: 2px;
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #FFFFE5;
+	font-size: 0px;
+	line-height: 0px;
+	z-index: 19;
+	left: -8px;
+}
+
+#departmentTreeDiv {
+	display: none;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	left: 50%;
+	margin-left: -150px;
+	top: 50px;
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+}
+
+#departmentTreeDivHide {
+	float: right;
+	position: relative;
+	margin: 5px;
+	background-image: url(../../images/pageform/pop-delete.png);
+	background-position : center center;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background-position: center center;
+    background-repeat: no-repeat;
+}

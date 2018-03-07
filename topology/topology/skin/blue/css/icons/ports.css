@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.portinfotitle {
+    height: 44px;
+    width: 100%;
+}
+
+.portinfotitle ul {
+    display: block;
+    padding-left: 20px;
+}
+
+.backboard_info{
+    height:40px;
+}
+
+.backboard_status{
+    height:40px;
+}
+
+li.port {
+    padding-left: 25px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 25px;
+    line-height: 40px;
+    float: left;
+    font-size: 14px;
+    list-style:none;
+}
+#tIp{
+    padding-left:0;
+}
+
+.port_span {
+    width: 17px;
+    height: 12px;
+    margin-right: auto;
+    display: block;
+    margin-top: 8px;
+}
+
+.port_online {
+    background-image: url(../../images/icons/port/list_port_green.png);
+}
+
+.port_close {
+    background-image: url(../../images/icons/port/list_port_red.png);
+}
+
+.port_error {
+    background-image: url(../../images/icons/port/list_port_green_yellow.png);
+}
+
+.port_underline {
+    background-image: url(../../images/icons/port/list_port_gray.png);
+}
+
+.port_unmonitor {
+    background-image: url(../../images/icons/port/status-forbidden-gary.png);
+}
+.port_noreportdata {
+    background: url(../../images/icons/port/noreportdata.png) no-repeat 50% 25%;
+}
+
+.table-box{
+    height:280px;
+    padding: 0 10px;
+}
+.showrightmess{
+     position: absolute;
+}
+.showrightmess ul li{
+    height:30px;
+    width: 120px;
+    line-height: 30px;
+    font-size:14px;
+    background-color:#fff;
+    color: #333;
+    z-index: 200;
+    border-radius: 2px 0 0 #ccc;
+    text-indent: 20px;
+    -moz-box-shadow: 2px 2px 2px #888888; /* 老的 Firefox */
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+}
+.showrightmess ul li:hover{
+    background-color:#E2ECF5;
+}
+::-webkit-scrollbar{width:0px}
+td.imgstyle img{
+    position:relative;
+    top: 5px;
+    margin-right:10px;
+}
+td.text-center{
+    text-align:center;
+}

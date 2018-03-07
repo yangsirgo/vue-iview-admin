@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<linearGradient id="10_node_fc_switch_SVGID_1_" gradientUnits="userSpaceOnUse" x1="0.0962" y1="32.9551" x2="76.3926" y2="32.9551" gradientTransform="matrix(1 0 0 -1 -0.02 99.0947)">
+	<stop  offset="0" style="stop-color:#314F5C"/>
+	<stop  offset="0.5172" style="stop-color:#57798B"/>
+	<stop  offset="1" style="stop-color:#314F5C"/>
+</linearGradient>
+<polygon fill="url(#10_node_fc_switch_SVGID_1_)" points="0.076,52.471 0.076,79.809 76.373,79.809 76.373,52.471 "/>
+<polygon fill="#204A59" points="76.373,52.471 99.924,20.191 99.924,47.581 76.373,79.809 "/>
+<polygon fill="#608293" points="76.373,52.471 99.924,20.191 23.665,20.191 0.076,52.471 "/>
+<g enable-background="new    ">
+	<path fill="#EDEDED" d="M26.109,73.866l0.105-15.033l9.777,0.069l-0.018,2.543l-6.897-0.049l-0.025,3.559l5.954,0.042l-0.018,2.543
+		l-5.954-0.042l-0.045,6.389L26.109,73.866z"/>
+	<path fill="#EDEDED" d="M47.423,68.489l2.785,0.953c-0.439,1.638-1.16,2.852-2.161,3.641c-1.001,0.79-2.267,1.179-3.797,1.168
+		c-1.894-0.013-3.445-0.706-4.655-2.079c-1.209-1.372-1.806-3.241-1.789-5.606c0.018-2.502,0.644-4.441,1.879-5.816
+		c1.235-1.376,2.852-2.057,4.85-2.043c1.744,0.013,3.157,0.565,4.239,1.661c0.644,0.646,1.124,1.573,1.44,2.778l-2.855,0.698
+		c-0.164-0.781-0.511-1.398-1.042-1.854c-0.532-0.455-1.181-0.686-1.946-0.69c-1.057-0.008-1.917,0.387-2.582,1.182
+		c-0.664,0.795-1.002,2.089-1.014,3.88c-0.014,1.9,0.301,3.256,0.944,4.067c0.643,0.812,1.483,1.221,2.521,1.228
+		c0.765,0.006,1.425-0.246,1.98-0.755C46.773,70.393,47.175,69.589,47.423,68.489z"/>
+</g>
+</svg>

@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+.clear{clear:both;}
+img{border:0px;}
+a{outline:none;}
+ul,li{list-style:none;}
+.rltv{position:relative;}
+.fr{float:right;}
+.fl{float:left;}
+
+#world {position:absolute;width:100%;height:100%; }
+.reportcontenttitle{
+    font-size: 16px;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    color: #8e9bae;
+    font-weight: bold;
+}
+.reportcontentbody{
+	width:100%;
+	text-align:center;
+	overflow-x: auto;
+}
+.wmtitle{
+height:60px;
+background:#f5f5f5;
+}
+.wmname{
+font-weight: bold;
+float:left;
+height:60px;
+padding-left:20px;
+line-height:60px;
+font-size:16px;
+}
+.wmtitle_01{
+height:60px;
+float:right;
+padding-right: 20px;
+}
+.wmtitle_01 p{
+float:left;
+margin-top:24px;
+margin-left:20px;
+color:#8e9bae;
+}
+.wmtitle_01 ul {
+	float: left;
+	padding-left: 20px;
+	}
+.wmtitle_01 ul li{
+float:right;
+background:#5faee3;
+height:30px;
+width:80px;
+margin-right:10px;
+font-size:14px;
+color:#FFF;
+text-align:center;
+line-height:30px;
+margin-top:24px;
+font-size:14px;
+}
+/*生成实例*/
+.catalogue{height:40px;width:100%;float:left; background:#e5e5e5;margin-top:1px;}
+.catalogue .content{width:10px; height:40px; background:#8e9bae; display:block; float:left}
+.catalogue p{color:#8e9bae; line-height:40px; margin-left:28px; font-weight:bold;}
+.wmclose1{
+float:right;
+margin-top:-30px;
+margin-right:20px;
+width:20px;
+height:20px;
+cursor:pointer;
+background:url(../../images/lineclose.png) center no-repeat;} 
+.wmopen1 {
+	float: right;
+	margin-top: -30px;
+	margin-right: 20px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background: url(../../images/lineopen.png) center no-repeat;}
+.wmup{
+	display:block;
+}
+
+.wmdown{
+	 display:none;
+}
+.catalogue_menu{
+	float:left;
+	background:#FFF;
+	width:100%;
+	padding: 0px;
+}
+.tablegather{
+	width:100%;
+	overflow-x:auto;
+}
+.catalogue_menu ul {margin-top:10px;}
+.catalogue_menu ul li {
+	height: 30px;
+	margin-left: 25px;
+	color: #8e9bae;
+	font-size: 14px;
+	background: url(../../images/icons/check-report-piont.png) 0px 7px no-repeat;
+	padding-left: 10px;
+}
+
+.report{width:100%;overflow-x:auto;}
+/**更多弹框展示**/
+.server_monthly {
+	font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.redtxt{color:#f36266;}
+.orangetxt{color:#fb9b04;}
+.greentxt{ color: #38cdd3;}
+.graytxt{color: #7f7f7f;}
+.minortxt{color:#5eafe3;}
+.gray_txt_max{
+    height: 26px;
+    line-height: 26px;
+    color: #7f7f7f;
+    margin-left: 3px;
+    margin-right: 3px;
+    background: #e5e5e5;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: left;
+}
+.blue_txt_max{
+    height: 26px;
+    line-height: 26px;
+    color: #FFF;
+    background: #5faee3;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+       padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+.export{
+	cursor: pointer;
+}

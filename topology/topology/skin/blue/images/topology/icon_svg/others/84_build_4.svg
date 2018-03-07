@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="300 300 100 100" enable-background="new 300 300 100 100" xml:space="preserve">
+<g>
+	
+		<linearGradient id="84_build_4_SVGID_1_" gradientUnits="userSpaceOnUse" x1="146.8799" y1="428.4746" x2="175.2461" y2="428.4746" gradientTransform="matrix(1 0 0 -1 202.3398 780.0391)">
+		<stop  offset="0" style="stop-color:#304E5B"/>
+		<stop  offset="0.5172" style="stop-color:#577788"/>
+		<stop  offset="1" style="stop-color:#304E5B"/>
+	</linearGradient>
+	<polygon fill="url(#84_build_4_SVGID_1_)" points="377.586,304.802 349.22,309.307 349.22,398.326 377.586,385.3 	"/>
+	<polygon fill="#5F8090" points="321.706,381.381 349.265,393.726 349.265,308.956 321.706,304.784 	"/>
+	<polygon fill="#5F8090" points="349.22,398.326 313.573,381.118 313.573,368.36 349.22,383.954 	"/>
+	<polygon fill="#163E48" points="357.719,380.021 321.847,365.397 313.436,368.344 349.118,383.764 	"/>
+	
+		<linearGradient id="84_build_4_SVGID_2_" gradientUnits="userSpaceOnUse" x1="146.8799" y1="396.8125" x2="184.5576" y2="396.8125" gradientTransform="matrix(1 0 0 -1 202.3398 780.0391)">
+		<stop  offset="0" style="stop-color:#304E5B"/>
+		<stop  offset="0.5172" style="stop-color:#577788"/>
+		<stop  offset="1" style="stop-color:#304E5B"/>
+	</linearGradient>
+	<polygon fill="url(#84_build_4_SVGID_2_)" points="386.897,381.167 349.22,398.326 349.22,383.613 386.876,368.128 	"/>
+	<polygon fill="#163E48" points="340.492,379.67 349.22,383.613 386.876,368.128 377.606,365.124 	"/>
+	<polygon fill="#163E48" points="377.49,304.833 349.768,301.205 321.551,304.896 349.267,309.315 	"/>
+	<polygon fill="#EDEDEC" points="355.399,372.188 354.068,372.701 354.068,310.262 355.399,310.043 	"/>
+	<polygon fill="#EDEDEC" points="361.628,369.643 360.366,370.128 360.366,309.313 361.628,309.105 	"/>
+	<polygon fill="#EDEDEC" points="367.86,367.067 366.662,367.53 366.662,308.257 367.86,308.059 	"/>
+	<polygon fill="#EDEDEC" points="374.094,364.456 372.955,364.896 372.955,307.089 374.094,306.9 	"/>
+	<polygon fill="#EDEDEC" points="344.385,373.061 345.756,373.592 345.756,310.843 344.385,310.616 	"/>
+	<polygon fill="#EDEDEC" points="338.152,371.18 339.481,371.693 339.481,309.921 338.152,309.701 	"/>
+	<polygon fill="#EDEDEC" points="331.938,368.227 333.189,368.709 333.189,308.801 331.938,308.595 	"/>
+	<polygon fill="#EDEDEC" points="325.721,365.302 326.9,365.757 326.9,307.603 325.721,307.408 	"/>
+	<polygon fill="#163E48" points="337.625,383.217 323.742,377.146 323.742,385.96 337.625,392.502 	"/>
+	<polygon fill="#163E48" points="376.205,377.374 363.403,382.98 363.403,391.837 376.205,385.814 	"/>
+	<g>
+		<polygon fill="#EDEDEC" points="349.343,363.971 321.664,354.268 321.664,355.641 349.343,365.49 		"/>
+		<polygon fill="#EDEDEC" points="349.281,352.953 321.613,344.319 321.613,345.692 349.281,354.475 		"/>
+		<polygon fill="#EDEDEC" points="349.265,341.958 321.6,334.389 321.6,335.761 349.265,343.478 		"/>
+		<polygon fill="#EDEDEC" points="349.281,330.936 321.613,324.432 321.613,325.805 349.281,332.454 		"/>
+		<polygon fill="#EDEDEC" points="349.281,319.921 321.613,314.483 321.613,315.857 349.281,321.441 		"/>
+	</g>
+	<polygon fill="#EDEDEC" points="377.689,315.731 349.298,321.442 349.298,319.933 377.689,314.373 	"/>
+	<polygon fill="#EDEDEC" points="377.666,325.654 349.269,332.454 349.269,330.945 377.666,324.295 	"/>
+	<polygon fill="#EDEDEC" points="377.668,335.611 349.271,343.503 349.271,341.994 377.668,334.251 	"/>
+	<polygon fill="#EDEDEC" points="377.672,345.507 349.273,354.485 349.273,352.977 377.672,344.147 	"/>
+	<polygon fill="#EDEDEC" points="377.674,355.423 349.276,365.49 349.276,363.979 377.674,354.063 	"/>
+</g>
+</svg>

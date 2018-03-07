@@ -1,0 +1,447 @@
+@charset "utf-8";
+body{background-color:#383E4E;}
+/*顶部*/
+#wtop {background-color: #434A5C;}
+.hex-discovery {background-image: url(../../images/icons/dark/hex-discovery.png);}
+.hex-user {background-image: url(../../images/icons/dark/hex-user.png);}
+#allscreen { background-image: url(../../images/icons/dark/hex-fullscreen.png);}
+/*左侧菜单*/
+#menus{background-color:#262C3E;}
+#menubtn{background-image:url(../../images/icons/dark/menubtn.png);}
+ul.mul1{background-color:#1A2032;}
+ul.mul2{background-color:#1A2032;}
+a.listclick{color: #5faee3; background-image:url(../../images/icons/dark/listclick.png);}
+a.listclick_noicon {color: #5faee3;}
+.listhover{background-image:url(../../images/icons/dark/listhover.png);}
+.listhover2{background-image:url(../../images/icons/dark/listhover.png);}
+.li_on{background-color:#1A2032;}
+.li_on1{background-color:#121626;}
+.icon1{background-image:url(../../images/icons/navis/blue-navi-home.png);}
+.icon2{background-image:url(../../images/icons/navis/blue-navi-network.png);}
+.icon3{background-image:url(../../images/icons/navis/blue-navi-monitor.png);}
+.icon4{background-image:url(../../images/icons/navis/blue-navi-log.png);}
+.icon5{background-image:url(../../images/icons/navis/blue-navi-alarm.png);}
+.icon6{background-image:url(../../images/icons/navis/blue-navi-report.png);}
+.icon7{background-image:url(../../images/icons/navis/blue-navi-system.png);}
+.icon8{background-image:url(../../images/icons/navis/blue-navi-search.png);}
+.icon9{background-image:url(../../images/icons/navis/blue-navi-business.png);}
+.icon10{background-image:url(../../images/icons/navis/blue-navi-serve.png);}
+/*总体*/
+.main_bg {background-color:#383E4E;}
+.main_bg2 {background-color:#383E4E;}
+.bgcolor1{background-color:#383E4E;}
+.bgcolor2{background-color:#383E4E;}
+.iptbg{background-color:#323849;color:#CDCECE;border:1px solid #323849;}
+select{background-color:#323849;color:#CDCECE;border: 1px solid #323849;}
+textarea{background-color:#323849;color:#CDCECE;border: 1px solid #323849;}
+/*首页*/
+.bigtabtitle{color:#CDCECE;}
+.addView {background-image: url(../../images/icons/dark/small-add.png);}
+.setOption {background-image: url(../../images/icons/dark/setting.png);}
+.portlet_title{color: #5FAEE3;}
+.portlet_settingbtn{background-image: url(../../images/icons/dark/instrument.png);}
+.portlet_del{background:url(../../images/icons/dark/small-delete-white.png);}
+.gridster .gs-w {background-color:#495165}
+.pre_history table tr td{background-color:#3D4455;}
+.pre_history table tr td:nth-child(2){border-left: 2px solid #383E4E;border-right: 2px solid #383E4E;}
+.null_box{background-image: url(../../images/icons/dark/nodata.png);}
+.addPorticon{background-image: url(../../images/icons/dark/add-portlet_gray.png);}
+.addPorticon:hover{background-image: url(../../images/icons/dark/add-portlet_blue.png);}
+/*弹窗*/
+#facewindow{background-color:#2F3545;}
+.openwindowtitle {background-color:#383E4E;color:#CDCECE;}
+.openwindowtitleclose{background-image: url(../../images/icons/dark/pop-close.png);}
+.openwindowtitleclose:hover{background-image: url(../../images/icons/dark/pop-close-on.png);}
+.openwindow{background-color:#434A5C;}
+.openwindowbtns{background-color:#383E4E}
+.cancelbtn{background-color:#626A7D;color:#fff}
+.cancelbtn:hover{background-color:#383E4E;}
+.questionwin{color:#CDCECE}
+.openwindowcontent{}
+.openwindowcontentcenter{color:#CDCECE}
+.inboxtitle{background-color:#383E4E;color:#CDCECE}
+#result{border:1px solid #63697F}
+.infoTable{color:#CDCECE}
+.frequency{background-color:#323849;color:#CDCECE;border:1px solid #323849;}
+.frequencygray{color:#222;}
+.showcontent{color:#CDCECE}
+.commentary_send{background-color:#383E4E}
+.send_input{background-color:#434A5C;border:1px solid #434A5C;color:#CDCECE}
+.policyInfoBox{color:#CDCECE}
+.resource_title{background-color:#383E4E;color:#CDCECE}
+.portinfotitle{background-color:#383E4E;color:#CDCECE}
+.alarmDetail{color:#CDCECE}
+.confirmtime{color:#5faee3;}
+/*内页*/
+#inlefttreetitle{background-color:#383E4E;color:#CDCECE}
+#inrighttitle{background-color:#383E4E;}
+#inright{background-color:#3B4252;border-left:1px solid #5A6278;color:#CDCECE}
+#inlefttree{background-color:#3B4252}
+#inlefttreename input{background-color:#383E4E;color:#CDCECE}
+#inrightname{color:#CDCECE}
+li.accessli{color:#CDCECE}
+li.cursor{color:#CDCECE}
+.accesslion{background-color:#262C3E;color:#CDCECE}
+.indatalisttitle{background-color:#434A5C}
+.indatalisttitle2{background-color:#434A5C}
+.wintbcon_left{background-color:#383E4E}
+.wintbcon_right{}
+.wconbox_white{background-color:#383E4E;color:#CDCECE}
+.list_gary{background-color:#262C3E;color:#CDCECE}
+.pageformcontent{background-color:#383E4E;}
+.pageformcontent_d{background-color:#434A5C;}
+#inrightcontent{background-color:#3B4252;color:#CDCECE}
+.btnname1{color:#CDCECE}
+.ipsettinginfo{color:#CDCECE}
+.inminbox {border: 1px solid #383E4E;}
+.inminboxtitle{background-color:#383E4E;color:#CDCECE}
+/*datatable*/
+.dataTables_wrapper{background-color:#3B4252;color:#CDCECE}
+.dataTables_scrollBody{background-color:#434A5C;}
+tr.odd{background-color:#383E4E;}
+tr.even{background-color:#434A5C;}
+table.dataTable thead tr {background-color:#434A5C;}
+table.dataTable tbody tr:hover {background-color:#404757;}
+table.dataTable tbody tr td table tr:hover {background-color:#3B4252;}
+table.dataTable th, table.dataTable td{color:#CDCECE;}
+table.dataTable tbody tr:hover {background-color:#404757;}
+table.dataTable tr th:hover{background-color:#404757;}
+table.dataTable tr td:hover{}
+table.dataTable thead th, table.dataTable thead td{color:#CDCECE;}
+table.dataTable thead .sorting{background-image:url(../../images/dataTables/dark/sort_both.png);}
+span.list_blue{background-color:#5faee3;}
+.dataTables_blackline {background-color:#383E4E;filter: alpha(opacity=100);opacity:1;}
+.dataTables_info{color:#CDCECE}
+.dataTables_wrapper .dataTables_length select{background-color:#323849;color:#CDCECE;}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{background-color:#323849;color:#CDCECE;}
+.dataTables_wrapper .dataTables_paginate{border:1px solid #323849;background-color:#3B4252}
+.dataTables_wrapper .dataTables_paginate .paginate_button{border-left:1px solid #323849;}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{background-color:#323849;color:#CDCECE;}
+.datalist th{ color:#CDCECE;}
+.digray {background-color:#383E4E;}
+tr.tron{background-color:#404757;}
+.datalist td select{background-color:#323849;color:#CDCECE;border: 1px solid #323849;}
+/*ztree*/
+.ztree li a{color:#CDCECE;}
+.ztree li a.curSelectedNode{background-color:#262C3E;color:#CDCECE;}
+.ztree li span.button.root_open{background-image:url("../../images/ztree/dark/root_open.png");}
+.ztree li span.button.root_close{background-image:url("../../images/ztree/dark/root_close.png");}
+.ztree li span.button.roots_open{background-image:url("../../images/ztree/dark/roots_open.png");}
+.ztree li span.button.roots_close{background-image:url("../../images/ztree/dark/roots_close.png");}
+.ztree li span.button.center_open{background-image:url("../../images/ztree/dark/center_open.png");}
+.ztree li span.button.center_close{background-image:url("../../images/ztree/dark/center_close.png");}
+.ztree li span.button.bottom_open{background-image:url("../../images/ztree/dark/bottom_open.png");}
+.ztree li span.button.bottom_close{background-image:url("../../images/ztree/dark/bottom_close.png");}
+.ztree li span.button.center_docu{background-image:url("../../images/ztree/dark/center_docu.png");}
+.ztree li span.button.bottom_docu{background-image:url("../../images/ztree/dark/bottom_docu.png");}
+.ztree li span.button.roots_docu{background-image:url("../../images/ztree/dark/roots_docu.png");}
+.ztree li ul.line{background-image:url("../../images/ztree/dark/line_conn.gif");}
+/*wtab*/
+.wtabs{background-color:#383E4E}
+.wtabbtns{background-color:#383E4E;color:#CDCECE;}
+.wtabbtn{border-top: 3px solid transparent;}
+.wtabbtnon{background-color:#434A5C;border-top: 3px solid #5faee3;color:#CDCECE;}
+.alarmaddgraybtn{background-image: url(../../images/icons/dark/tab-add.png);}
+.syslog_title{}
+.wtabcons{background-color:#434A5C}
+.wtabwhitebtnon {background-color: #434A5C;border-top: 3px solid #5faee3;color: #CDCECE;}
+.inwtabbtn{color:#CDCECE;}
+ul.wtabbtnlist{background-color:#434A5C;}
+ul.bgwhite{background-color:#434A5C;}
+ul.wtabbtnlist li:hover{background-color:#3B4252;}
+/*form*/
+.right_below_right_title{}
+.select-alarm{background-color:#323849;border:1px solid #323849;color:#CDCECE;}
+input.pfsearchlist{background-color:#323849;border:1px solid #323849;color:#CDCECE;}
+.topLevelTree{background-color:#323849;color:#CDCECE;border:1px solid #323849;}
+input.pfsearch{background-color:#323849;color:#CDCECE;border:1px solid #323849;}
+.topLevelDepart{background-color:#3B4252}
+input.pfsearch:hover{background-color:#262C3E;}
+input.pfsearch_radius{border: 1px solid #323849;background-color:#323849;color: #CDCECE;}
+input.pfsearch_radius:hover{border: 1px solid #323849;background-color:#323849;color: #CDCECE;}
+.basic_input{background-color: #434A5C;color: #CDCECE;border: 1px solid #63697F;}
+.pftxtarea{ background-color: #434A5C;color: #CDCECE;border: 1px solid #63697F;}
+.pflabel{color:#CDCECE}
+.pfinput{background-color:#323849;color:#CDCECE;border:1px solid #323849}
+.pfselect{background-color:#323849;color:#CDCECE;border:1px solid #323849}
+.pfwindowform{color:#CDCECE;}
+.textinput{background-color:#434A5C;color:#CDCECE;border:1px solid #63697F}
+.select-event{background-color:#323849;color:#CDCECE;border:1px solid #323849}
+#viewAlarmtimescope{background-color:#323849;color:#CDCECE;border:1px solid #323849}
+.chooseCurrent{color:#CDCECE}
+table.pfwindowforms td{color:#CDCECE}
+select.pointer{background-color:#323849;color:#CDCECE;border:1px solid #323849}
+.find_failur_txt{background-color:#434A5C;color:#CDCECE;border:1px solid #63697F}
+.form-control{background-color:#323849;border:1px solid #222;color:#CDCECE;}
+.input-group-addon{background-color:#323849;border:1px solid #222;color: #CDCECE;}
+.report_select{background-color:#323849;border:1px solid #323849;color: #CDCECE;}
+.restextarea{background-color:#323849;border:1px solid #323849;color: #CDCECE;}
+.range{background-color:#323849;border:1px solid #323849;color: #CDCECE;}
+.timeinput{background-color:#323849;border:1px solid #323849;color: #CDCECE;}
+.edit_box{background-color:#323849;border:1px solid #323849;color: #CDCECE;}
+/*右肩按钮*/
+.refresh{background-image: url(../../images/icons/dark/refresh.png);}
+.option_btn{background-image: url(../../images/icons/dark/operation.png);}
+.gear{background-image: url(../../images/icons/dark/setting.png);}
+.syslog_addtable{background-image: url(../../images/icons/dark/add-table.png);}
+.syslog_delete{background-image: url(../../images/icons/dark/dark-delete.png);}
+.syslog_export{background-image: url(../../images/icons/dark/dark-event-export.png);}
+.syslog_add {background-image: url(../../images/icons/dark/add.png);}
+.syslog_caozuo{background-image:url(../../images/icons/dark/operation.png);}
+.del_btn{background-image:url(../../images/icons/dark/delete.png);}
+.clear_btn{background-image:url(../../images/icons/dark/empty.png);}
+.export_btn{background-image:url(../../images/icons/dark/event-export.png);}
+.add-blue{background-image: url(../../images/icons/dark/add.png);}
+.delete-blue{background-image: url(../../images/icons/dark/delete.png);}
+.save-blue {background-image: url(../../images/icons/dark/save.png);}
+.emptyaddicon{background-image: url(../../images/icons/dark/add.png);}
+.add_icon_select{background-image: url(../../images/icons/dark/add.png);}
+.delete_icon_select{background-image: url(../../images/icons/dark/delete.png);}
+.add_icon_disable{background-image: url(../../images/icons/dark/small-add_disable.png);}
+.delete_icon_disable{background-image: url(../../images/icons/dark/small-delete_disable.png);}
+#inrightctrl table tr td{color:#CDCECE;}
+.add_report_title{color:#CDCECE;}
+/*下拉菜单*/
+ul.btnselectorlist{border: 1px solid #424A5C;background-color:#424A5C;box-shadow: 5px 5px 1px rgba(0,0,0,.2);}
+.btnlistarrow1{background-image:url(../../images/icons/dark/btnlistarrow.png) ;}
+ul.btnselectorlist li a{ color:#e7e7e7;}
+.grayon{background-color:#383E4E;}
+ul.tipmenulist{background-color:#424A5C;border:1px solid #424A5C;color:#e7e7e7;}
+li.tipmenuli:hover{background-color:#383E4E;}
+.tipuparrow{border-color: transparent;border-style: solid;border-width: 11px;border-bottom-color:#424A5C; border-top-width: 0;}
+.tipuparrow:after{border-color: transparent;border-style: solid;border-width: 10px;border-bottom-color: #424A5C;border-top-width: 0;}
+.tipdownarrow{border-color: transparent;border-style: solid;border-width: 11px;border-top-color:#424A5C; border-bottom-width: 0;}
+.tipdownarrow:after{border-color: transparent;border-style: solid;border-width: 10px;border-top-color: #424A5C;border-bottom-width: 0;}
+/*portalet*/
+.selected{background-color:#262C3E;}
+.main_txt ul li:HOVER{background-color:#262C3E;}
+.main_left_txt{color:#CDCECE;}
+.main_right_content {background-color:#262C3E;}
+.commit_resource{background-color:#383E4E;}
+.button_block{background: #383E4E;}
+.input_title{border:1px solid #323849;background-color:#323849;color:#cdcece}
+.time_range{border:1px solid #323849;background-color:#323849;color:#cdcece}
+.search_term{border:1px solid #323849;background-color:#323849;color:#cdcece}
+.category_tree{background-color:#323849;color:#CDCECE;border:1px solid #323849;}
+.metric_box table{color:#CDCECE;}
+.metric_box table tr{background-color:#434A5C;}
+.metric_box table tbody tr:nth-child(odd){background-color:#383E4E;}
+.metric_list{background-color:#323849;}
+table.metric_list tr{background-color:#434A5C;}
+table.metric_list tr:nth-child(odd){background-color:#383E4E;}
+.info_value{color:#fff;}
+.resource_list {background-color: #323849;}
+.hxipcell{background-color: #323849;color:#CDCECE;}
+.preview{border: 5px solid #323849;}
+.line_style{background-color:#323849;}
+
+/*资源详情*/
+.con_block{color:#CDCECE;}
+.monitor_charts{background-color:#383E4E;}
+.runtimer {color: #CDCECE;}
+.winfobtn{background-image:url(../../images/icons/dark/hex-info.png);}
+.celue{color: #CDCECE;}
+.ip_list select{background-color: #434A5C;color: #CDCECE;border: 1px solid #63697F;}
+.datagrade table th{background-color: #434A5C;}
+.pinkboxtitle {background-color:#383E4E;border: 1px solid #383E4E;}
+.pinkboxname {color: #F36266;}
+.datagrade table tr{border-top: 1px solid #383E4E;}
+.datagrade table tr:hover{background-color:#3C4355;}
+.datagradepink{border: 1px solid #F36266;border-top: 0px;}
+.datagrade table td{color: #CDCECE;}
+.grayboxtitle {background-color: #383E4E;border: 1px solid #383E4E;}
+.datagrade{border: 1px solid #383E4E;}
+.component_box{border: 1px solid #383E4E;}
+.inwtabcon{background-color:#3B4252;}
+.inwtabcons{background-color:#3B4252;border-top: 1px solid #383E4E;}
+.inwtabbtnon{background-color:#3B4252;
+border-top:3px solid #5faee3;
+color:#CDCECE;}
+.interfacelist{border: 1px solid #383E4E;}
+.interfacelist ul li{border-bottom: 1px solid #383E4E;}
+.interfacelist ul li:hover{background: #434A5C;}
+.interfacelist .sel_list{background: #434A5C;}
+.subtitle{color:#CDCECE;}
+.timeItem{}
+.item_selected{background-color: #5FAEE3;color: #fff;}
+.innerTable thead th, .innerTable tbody td{background-color:#363D4F;}
+.cancle_btn{color:#222;}
+/*编辑策略*/
+.pageformtitle{background-color:#383E4E;}
+#resInsList_wrapper .dataTables_scrollBody {bottom: 0px;border-bottom: 15px solid #3B4252;}
+#resInsListSelected_wrapper .dataTables_scrollBody {bottom: 0px;border-bottom: 15px solid #3B4252;}
+.datalisttable{background-color:#434A5C;}
+.datalist td a {color: #CDCECE;}
+.datalist1 {background-color: #434A5C;border: 1px solid #3B4252;color: #CDCECE;}
+.datalist1 th {color: #CDCECE;}
+.policyselect {background-color: #323849;border: 1px solid #323849;color: #CDCECE;}
+.policyinput {background-color: #323849;border: 1px solid #323849;color: #CDCECE;}
+.timepicers {background-color: #383E4E;}
+.timepicer {color: #CDCECE;}
+.tdrowspan{border-right:1px solid #3B4252}
+.add-blue-small {background-image: url(../../images/inpage/blue-add-small.png);}
+/*发现*/
+.label{color: #CDCECE;}
+.label1{color: #CDCECE;}
+.label2{color: #CDCECE;}
+.parameter{color: #CDCECE;}
+.core_label{color: #CDCECE;}
+.text_input{background-color: #434A5C; color: #CDCECE; border: 1px solid #63697F;}
+.text_input1{background-color: #434A5C; color: #CDCECE; border: 1px solid #63697F;}
+.select_input{background-color: #434A5C; color: #CDCECE; border: 1px solid #63697F;}
+.setting_list th{background-color:#383E4E;color: #CDCECE;}
+.setting_list tr {border: 1px solid #383E4E;color: #CDCECE;}
+.v3_table tr{border: 1px solid #383E4E;color: #CDCECE;}
+.v3_table th{background-color:#383E4E;color: #CDCECE;}
+.depth{border:6px solid #383E4E;}
+.parameter_input{background-color: #434A5C;color: #CDCECE;border: 1px solid #63697F;}
+.typeBox hr{border:1px solid #262C3E;}
+.step_box{ background-color: #383E4E;}
+.find_box{color: #CDCECE;}
+.step_title{background-color:#383E4E;}
+.singlemenulist{background-color:#262C3E;}
+.step_title{background-color:#383E4E;}
+.download_btn{background-color:#383E4E;}
+.upload_btn{background-color:#383E4E;}
+.core_setting{color: #CDCECE;}
+.path_input{background-color:#383E4E;border:1px solid #383E4E;color: #CDCECE;}
+.zhidu ul li{color: #CDCECE;}
+/*单个发现*/
+a.ma0_s{color: #CDCECE;}
+a.ma1_s{color: #CDCECE;}
+a.ma2_s{color: #CDCECE;}
+ul.mul1_s{background-color:#262C3E;}
+ul.mul2_s{background-color:#262C3E;}
+.li_on_s{background-color:#1A2032;}
+.li_on1_s{background-color:#1A2032;}
+.main_right_button {color: #CDCECE;}
+.find_premise_main{color: #CDCECE;}
+.port_main{color: #CDCECE;}
+.setting_table{color: #CDCECE;}
+.main_right_title{color: #CDCECE;border:1px solid #323849;}
+.main_right_title1{color: #CDCECE;border:1px solid #323849;}
+/*拓扑图*/
+.topologyCanvasToolBar{border-top: 1px solid #383E4E;background-color:#383E4E}
+.geToolbarContainer {border-bottom: 1px solid #434A5C;background-color: #383E4E;color: #CDCECE;}
+.geToolbarContainer .geSeparator {background-color:#434A5C;}
+.ui-accordion .ui-accordion-content{background-color:#383E4E}
+.resource {border: 1px solid #262C3E;}
+.lastcolorline{border-top: 1px solid #262C3E;border-bottom: 1px solid #262C3E;}
+.othercolor {border-left: 1px solid #262C3E;color: #CDCECE;}
+.topuwintitle {
+	background-color: #262C3E;
+	border-bottom: 1px solid #262C3E;
+	border-top: 1px solid #262C3E;color: #CDCECE;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	border-bottom:1px solid #262C3E;
+	background-color:#262C3E;
+	color: #CDCECE;
+}
+.ui-state-default, .ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border-bottom:1px solid #262C3E;
+	background-color:#262C3E;
+	color: #CDCECE;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover,
+.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+{
+	border-bottom:1px solid #1A2032;
+	background-color:#1A2032;
+	font-weight: bold;
+	color: #CDCECE;
+}
+#warninglist {
+	background-color: #383E4E;
+	position: absolute;
+	left: 204px;
+	height:190px;
+	bottom: 0px;
+	border-left: 1px solid #262C3E;
+	border-right: 1px solid #262C3E;
+	border-bottom: 1px solid #262C3E;
+}
+div.btnselectorlist1{
+	border: 1px solid #262C3E;
+	display: block;
+	background-color: #383E4E;
+}
+div.btnselectorlist1title {
+	background-color: #262C3E;color: #CDCECE;
+}
+.ui-spinner-input{color: #CDCECE;}
+.jqCtxMenu{background-color:#262C3E;}
+.jqCtxMenu li{color:#CDCECE}
+.jqCtxMenu li ul {
+	background-color: #262C3E;
+    border: 1px solid #efefef;
+}
+.jqCtxMenu li ul {
+	background-color: #262C3E;
+    border: 1px solid #efefef;
+}
+.jqCtxMenu li.hover {
+	background-color: #434A5C;
+}
+#eagleEye{background-color:#262C3E}
+#eagleEye-content{background-color:#383E4E}
+#eagleEye-zoom{color:#fff;}
+.pleaselogin{color:#CDCECE;font-size:14px;}
+.pleaselogin a{color:#5faee3;}
+html div.mxPopupMenu{background-color:#434A5C;color:#CDCECE;}
+.topologyCanvas{}
+.geSprite{background-image:url(../../images/topology/toolbar/toolbaricons2.png);}
+/*loading*/
+.openloadingwindow {background-image:url(../../images/window/loadingbackdark.png);}
+/*ipmac*/
+.greyfontcolor{background-color:#383E4E;border: 1px solid #383E4E;color:#CDCECE;}
+.greyfontcolor2{border: 1px solid #383E4E;color:#CDCECE;}
+td.details-control{background-image:url(../../images/icons/dark/details_open.png);}
+tr.shown td.details-control{background-image:url(../../images/icons/dark/details_close.png);}
+span.halving{background-color:#383E4E;}
+/*picker*/
+.input{background-color: #323849;border: 1px solid #323849;color: #CDCECE;}
+.daterangepicker{background-color:#262C3E;}
+.daterangepicker .calendar-date{background-color:#434A5C;}
+.daterangepicker .calendar th, .daterangepicker .calendar td{color:#fff;}
+.daterangepicker td.in-range{color:#000;}
+.moreimage{background: url(../../images/icons/dark/operation.png) no-repeat;}
+
+
+
+.btnname{color:#e7e7e7;}
+.view{color:#CDCECE}
+
+.sub_pre_value{color:#fff}
+/*内页*/
+
+/*弹窗*/
+
+
+.facell{border:2px solid #383E4E;}
+.redetailback{background-color:#383E4E;}
+
+
+/*chrome滚动条*/
+::-webkit-scrollbar-track-piece{
+ -webkit-border-radius:0;
+}
+::-webkit-scrollbar{
+ width:8px;
+ height:8px;
+}
+::-webkit-scrollbar-thumb{
+ height:50px;
+ background-color:#272D3D;
+ -webkit-border-radius:4px;
+ outline-offset:-2px;
+ border: 2px solid #272D3D;
+}
+::-webkit-scrollbar-thumb:hover{
+ height:50px;
+ background-color:#272D3D;
+ -webkit-border-radius:4px;}
+ ::-webkit-scrollbar-corner{
+ background-color:#272D3D;
+ }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<polygon fill="#0D96D4" points="0.359,52.444 0.359,75.097 76.484,75.097 76.484,52.444 "/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-501.981" y1="416.2695" x2="-425.856" y2="416.2695" gradientTransform="matrix(1 0 0 -1 502.34 480.04)">
+	<stop  offset="0" style="stop-color:#314F5C"/>
+	<stop  offset="0.5172" style="stop-color:#57798B"/>
+	<stop  offset="1" style="stop-color:#314F5C"/>
+</linearGradient>
+<polygon fill="url(#SVGID_1_)" points="0.359,52.444 0.359,75.097 76.484,75.097 76.484,52.444 "/>
+<polygon fill="#015B80" points="76.484,52.444 100,25.703 100,48.385 76.484,75.097 "/>
+<polygon fill="#204A59" points="76.484,52.444 100,25.703 100,48.385 76.484,75.097 "/>
+<polygon fill="#45AFE3" points="76.484,52.444 100,25.703 23.898,25.703 0.359,52.444 "/>
+<polygon fill="#608293" points="76.484,52.444 100,25.703 23.898,25.703 0.359,52.444 "/>
+<polygon display="none" fill="#FFFFFF" points="48.808,40.296 46.039,43.521 65.416,43.521 62.646,47.581 78.566,42.713 
+	70.264,38.684 68.184,40.296 "/>
+<polygon display="none" fill="#EDEDED" points="48.808,40.296 46.039,43.521 65.416,43.521 62.646,47.581 78.566,42.713 
+	70.264,38.684 68.184,40.296 "/>
+<polygon display="none" fill="#FFFFFF" points="58.48,29.762 55.715,33.013 75.09,33.013 71.635,37.045 88.242,31.375 
+	79.252,27.345 77.859,29.762 "/>
+<polygon display="none" fill="#EDEDED" points="58.48,29.762 55.715,33.013 75.09,33.013 71.635,37.045 88.242,31.375 
+	79.252,27.345 77.859,29.762 "/>
+<polygon display="none" fill="#FFFFFF" points="41.875,49.192 44.642,45.966 24.582,45.966 28.036,41.908 12.14,46.775 
+	20.445,50.799 21.815,49.192 "/>
+<polygon display="none" fill="#EDEDED" points="41.875,49.192 44.642,45.966 24.582,45.966 28.036,41.908 12.14,46.775 
+	20.445,50.799 21.815,49.192 "/>
+<polygon display="none" fill="#FFFFFF" points="50.889,37.853 53.656,34.625 34.281,34.625 37.738,30.568 21.129,36.236 
+	30.117,40.296 31.513,37.853 "/>
+<polygon display="none" fill="#EDEDED" points="50.889,37.853 53.656,34.625 34.281,34.625 37.738,30.568 21.129,36.236 
+	30.117,40.296 31.513,37.853 "/>
+<path fill="#FFFFFF" d="M13.137,48.879l15.81-19.612h4.421l-1.348,13.097l10.558-13.097h4.221l-15.81,19.612h-4.559l1.238-12.789
+	l-10.31,12.789H13.137z"/>
+<path fill="#FFFFFF" d="M56.085,48.879h-4.943l1.627-4.455h-8.995l-5.448,4.455h-4.82L58.08,29.268h4.805L56.085,48.879z
+	 M53.974,41.12l2.766-7.277l-8.905,7.277H53.974z"/>
+<path fill="#FFFFFF" d="M61.228,48.879l13.135-16.294h-6.677l2.674-3.318h17.882l-2.674,3.318h-6.662L65.77,48.879H61.228z"/>
+</svg>

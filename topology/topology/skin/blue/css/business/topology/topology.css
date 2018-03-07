@@ -1,0 +1,249 @@
+#container{
+	width: 100%;
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+}
+.title_icon{
+	background: url(../../../images/icons/service_list.png) center no-repeat;
+    float: left;
+    height: 35px;
+    width: 30px;
+}
+.btnselectorlist1titlename a{
+	color: #000;
+}
+
+.ztree li span.demoIcon{padding:0 2px 0 8px;}
+.ztree li span.button.icon01{margin:0; vertical-align:top; *vertical-align:middle}
+
+.downlist{
+	color: #ccc;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.homeTopo{
+	color: #5faee3;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.stategy{
+	width: 26px;
+	height: 26px;
+	background: url(../../../images/icons/strategy.png) no-repeat;
+	cursor: pointer;
+}
+.monitor{
+	width: 26px;
+	height: 26px;
+	background: url(../../../images/icons/monitoring.png) no-repeat;
+	cursor: pointer;
+	display: none;
+}
+.edit{
+	width: 26px;
+	height: 26px;
+	background: url(../../../images/icons/compile.png) no-repeat;
+	cursor: pointer;
+}
+.custom_menu{
+	position: fixed;
+    top: 100px;
+    right: 10px;
+    width: 80px;
+    height: 26px;
+    z-index: 1;
+}
+.custom_menu div{
+	margin: 0 5px 0 5px;
+	float: left;
+}
+.departTable{
+	font-size: 14px;
+    margin: 30px 0 0 50px;
+}
+.label{
+	width: 80px;
+	height: 40px;
+}
+.departIconBox, .resourceIconBox{
+	float: left;
+	padding: 5px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin: 5px 5px 5px 0;
+}
+.departIcon, .resourceIcon{
+	width: 50px;
+	height: 50px;
+}
+.iconlist_box{
+	margin:20px;
+}
+.selectedIcon{
+	border-color: #5faee3;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(23, 52, 92, 0.6);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(23, 52, 92, 0.6);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(23, 52, 92, 0.6);
+}
+.commit_resource_title{
+	font-size:14px;
+	line-height:40px;
+	margin-left:30px;
+}
+
+.all_chexck{
+	margin-left: 10px;
+	position: relative;
+    top: 2px;
+    display: none;
+}
+
+.commit_resource_input{
+	float:right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.commit_resource ul{float:right;}
+.commit_resource ul li{
+	float:right;
+	width:30px;
+}
+.commit_checkbox{
+	margin-right: 50px;
+}
+/* ==================================================================== */
+/* CHECKBOX TYPE 10 ---------------------------------------------------- */
+/* ==================================================================== */
+[id="switch"]+label, [id="switch1"]+label {
+	background-color: #fafbfa;
+	border-radius: 50px;
+	position: relative;
+	margin-right: 20px;
+	-webkit-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+}
+
+[id="switch"]+label:after, [id="switch1"]+label:after {
+	background-color: #fafbfa;
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 53px;
+	height: 22px;
+	border-radius: 100px;
+	box-shadow: inset 0 0 0 0 #eee, 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+[id="switch"]+label:before, [id="switch1"]+label:before {
+	content: ' ';
+	position: absolute;
+	background: white;
+	top: 1px;
+	left: 1px;
+	z-index:8000;
+	width: 20px;
+	-webkit-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+	height: 20px;
+	border-radius: 100px;
+	box-shadow: 0 3px 1px rgba(0, 0, 0, 0.05), 0 0px 1px rgba(0, 0, 0, 0.3);
+}
+
+[id="switch"]:active+label:after, [id="switch1"]:active+label:after {
+	box-shadow: inset 0 0 0 20px #eee, 0 0 1px #eee;
+}
+
+[id="switch"]:active+label:before, [id="switch1"]:active+label:before {
+	width: 37px;
+}
+
+[id="switch"]:checked:active+label:before, [id="switch1"]:checked:active+label:before {
+	width: 37px;
+	left: 20px;
+}
+
+[id="switch"]+label:active, [id="switch1"]+label:active {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px
+		rgba(0, 0, 0, 0.1);
+}
+
+[id="switch"]:checked+label:before, [id="switch1"]:checked+label:before {
+	content: ' ';
+	position: absolute;
+	left: 32px;
+	border-radius: 100px;
+}
+
+[id="switch"]:checked+label:after, [id="switch1"]:checked+label:after {
+	content: 'on';
+	height: 22px;
+	line-height: 20px;
+	vertical-align: middle;
+	text-indent: 5px;
+	font-size: 10px;
+	color: #fff;
+	position: absolute;
+	background: #5faee3;
+	box-shadow: 0 0 1px #5faee3;
+}
+.clicksetting{
+	width: 100%;
+    background: #e5e5e5;
+    margin-top: 10px;
+}
+.label1{
+	width: 120px;
+	height: 40px;
+	text-align: right;
+    padding-right: 10px;
+}
+.main_input{
+	border: 1px solid #e5e5e5;
+    height: 30px;
+    width: 280px;
+    padding-left: 6px;
+}
+input[type=radio], input[type=checkbox] {
+    margin-right: 8px;
+}
+.require {
+    color: red;
+    margin-right: 10px;
+}
+.metric_block{
+	padding: 5px;
+}
+.metric_block tr td{
+	white-space: nowrap;
+}
+.font_red{
+	color:#F36266;
+}
+.font_orange{
+	color:#f29730;
+}
+.font_blue{
+	color: #38cdd3;
+}
+.font_gray{
+	color: #c8c6c6;
+}
+.status{
+	float: left;
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 7px;
+}
+.comment{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../../../images/icons/question.png) center no-repeat;
+}

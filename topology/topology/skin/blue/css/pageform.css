@@ -1,0 +1,377 @@
+.pageform {
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+.pageformtitle {
+  height: 63px;
+  width: 100%;
+}
+.pageformtitlename {
+  height: 63px;
+  line-height: 63px;
+  padding-left: 20px;
+  float: left;
+  width: 200px;
+}
+.pageformtitleclose {
+  float: right;
+  background-image: url(../images/icons/pop-close.png);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.pageformtitleclosehover {
+  background-image: url(../images/icons/pop-close-hover.png);
+}
+.pageformcontent {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.pageformcontent_d {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.pageformbox {
+  margin: 20px;
+  background-color: #FFF;
+  padding-bottom: 20px;
+}
+.pageformboxtitle {
+  border-bottom: 1px solid #eee;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: auto;
+  color: #3975c2;
+  font-weight: bold;
+}
+.pageformboxname {
+  float: left;
+}
+.pageformboxextend {
+  float: left;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #666;
+  width: 60px;
+  height: 25px;
+  background: #e1e5ec;
+  line-height: 25px;
+  text-align: center;
+  font-size: 14px;
+}
+.pageformboxtips {
+  color: #9eacb4;
+  font-size: 14px;
+  margin-left: 15px;
+  float: left;
+}
+.pageformboxcontent table tr td {
+  vertical-align: top;
+}
+table.pfwindowform {
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: auto;
+  width: 96%;
+}
+table.pfwindowform td {
+  font-size: 14px;
+  padding: 4px;
+}
+table.pfwindowforms {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.pfcell {
+  width: 50%;
+  float: left;
+  margin-bottom: 15px;
+}
+.pfcelllong {
+  margin-left: 15px;
+  padding-bottom: 15px;
+}
+.pfcellsingle {
+  width: 515px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.pfinput {
+  height: 30px;
+  width: 390px;
+  font-family: "Microsoft YaHei", "黑体", "宋体";
+  padding-left: 4px;
+}
+.pfinput40 {
+  border: 1px solid #e5e5e5;
+  height: 25px;
+  width: 40px;
+}
+.pfselect {
+  height: 35px;
+  width: 396px;
+  font-family: "Microsoft YaHei", "黑体", "宋体";
+}
+.pfselect60 {
+  height: 27px;
+  width: 60px;
+  border: #e5e5e5 1px solid;
+  font-family: Microsoft YaHei;
+  vertical-align: middle;
+}
+.pftxtarea {
+  height: 50px;
+  width: 391px;
+  font-family: "Microsoft YaHei", "黑体", "宋体";
+  padding-left: 4px;
+}
+.pfred {
+  color: #FF0000;
+  float: right;
+  height: 34px;
+  line-height: 34px;
+  padding-right: 5px;
+}
+.pflabel {
+  float: right;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+.pfcon {
+  overflow: hidden;
+  height: 20px;
+  cursor: pointer;
+}
+.pfbtns {
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+.choose_button {
+  background-color: #e5e5e5;
+  height: 32px;
+  width: 70px;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333;
+}
+.enturebtn {
+  width: 70px;
+  height: 32px;
+  background-color: #5faee3;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #FFF;
+}
+.enturebtn:hover {
+  background-color: #0099CC;
+}
+.cancelbtn {
+  width: 70px;
+  height: 32px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.bluebtn {
+  height: 36px;
+  width: 60px;
+  line-height: 36px;
+  text-align: center;
+  background: #5faee3;
+  color: #FFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.bluecont {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #FFF;
+  background-color: #5faee3;
+  font-size: 12px;
+  -moz-border-radius: 15px;
+  /* Gecko browsers */
+  -webkit-border-radius: 15px;
+  /* Webkit browsers */
+  border-radius: 15px;
+  /* W3C syntax */
+}
+.f14 {
+  font-size: 14px;
+}
+select.error {
+  border: 2px solid #f36266;
+}
+input.error {
+  border: 2px solid #f36266;
+}
+textarea.error {
+  border: 2px solid #f36266;
+}
+label.error {
+  color: #f36266;
+  font-family: "Microsoft YaHei", "黑体", "宋体";
+  font-size: 12px;
+  display: inline-block;
+  padding-left: 10px;
+}
+td.tdforerror label.error {
+  padding-left: 50px;
+}
+input.pfsearch_radius {
+  width: 150px;
+  height: 28px;
+  border-radius: 20px;
+  padding-right: 30px;
+  outline: none;
+  text-indent: 10px;
+  background-image: url(../images/dataTables/search_input.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  font-family: "Microsoft YaHei", "黑体", "宋体";
+}
+input.pfsearch {
+  height: 28px;
+  outline: none;
+  width: 260px;
+  padding-right: 30px;
+  text-indent: 10px;
+  background-image: url(../images/dataTables/search_input.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+input.pfsearchlist {
+  height: 28px;
+  outline: none;
+  text-indent: 10px;
+  background-image: url(../images/dataTables/list_input.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.winfobtn {
+  background: url(../images/icons/hex-info.png) no-repeat;
+  height: 28px;
+  width: 28px;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* ==================================================================== */
+/* CHECKBOX TYPE 10 ---------------------------------------------------- */
+/* ==================================================================== */
+.has_label + label {
+  padding: 9px;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  width: 40px;
+  height: 15px;
+  font-family: Arial;
+}
+.has_label + label:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 60%;
+  border-radius: 100px;
+  box-shadow: inset 0 0 0 0 #eee, 0 0 1px rgba(0, 0, 0, 0.4);
+  font-family: Arial;
+}
+.has_label + label:before {
+  content: ' ';
+  position: absolute;
+  background: white;
+  top: 1px;
+  left: 1px;
+  z-index: 999;
+  width: 20px;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  height: 20px;
+  border-radius: 60px;
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.05), 0 0px 1px rgba(0, 0, 0, 0.3);
+}
+.has_label:active + label:after {
+  box-shadow: inset 0 0 0 20px #eee, 0 0 1px #eee;
+}
+.has_label:active + label:before {
+  width: 20px;
+}
+.has_label:checked:active + label:before {
+  width: 20px;
+  left: 20px;
+}
+.has_label + label:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.has_label:checked + label:before {
+  content: ' ';
+  position: absolute;
+  left: 26px;
+  border-radius: 60px;
+}
+.has_label:checked + label:after {
+  content: 'on';
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  text-indent: 5px;
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  background: #5faee3;
+  box-shadow: 0 0 1px #5faee3;
+}
+.datalistboxpart {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+.chooseiresouseicon {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+}
+/*# sourceMappingURL=pageform.css.map */
+table.pfwindowform td.titlename{
+  width: 80px;
+}
+table.pfwindowform td.titlecont{
+  width: 240px;
+}
+.posirela{
+  position: relative;
+}
+.posirela label.error{
+  position: absolute;
+  top: 13px;
+  left: 105px;
+}

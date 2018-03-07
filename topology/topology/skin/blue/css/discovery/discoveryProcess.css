@@ -1,0 +1,119 @@
+@charset "utf-8";
+/*init*/
+*{margin:0px;padding:0px;}
+body{font-family:"微软雅黑", "黑体", "宋体";}
+.clear{clear:both;}
+img{border:0px;}
+ul,li{
+list-style:none;
+}
+a{ text-decoration:none;}
+a:visited{color:#FFF;}
+#world{height:100%;width:100%; overflow:hidden; background:#eeeeee;}
+
+.title{height:63px;width:100%; background:#e5e5e5; float:left;}
+.title p{margin-left:20px;line-height:63px;}
+.close_button{height:10px; float:right; margin-top:-40px; margin-right:20px;}
+
+
+.main_v1{
+	width: 100%;
+    height: calc(100% - 80px);
+    background: #FFF;
+    float: left;
+    position: absolute; 
+}
+.main_v1_title{
+	height: 34px;
+    line-height: 34px;
+    background: #eeeeee;
+    font-size: 14px;
+    padding-left: 20px;
+    color: #5faee3;
+}
+
+.zhidu{
+	width:650px;
+	height:480px; 
+	font-size:14px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.zhidu ul li{
+	line-height:34px; 
+	width:640px;
+	border-bottom:#e5e5e5 1px solid ;
+	border-top-style:none;
+	font-size:14px; 
+	padding-left:10px;
+
+}
+.disInfoTime{
+float:left;
+width:80px;
+height:34ppx;
+line-height:34px;
+}
+.discoveryExist{
+float:left;
+width:350px;
+height:34ppx;
+line-height:34px;
+}
+.discoverySuccess{
+float:left;
+width:350px;
+height:34ppx;
+line-height:34px;
+}
+.discoveryErr{
+float:left;
+width:350px;
+height:34ppx;
+line-height:34px;
+color:#FF3300;
+}
+.bule_button{
+	float:right; 
+	background:#e1e5ec; 
+	width:70px;
+	height:34px; 
+	margin-right:-10px; 
+	color:#666666;  
+	font-size:14px; 
+	line-height:34px; 
+	margin-left:20px; 
+	text-align:right;
+	padding-right:20px;
+	margin-top:20px;
+}
+.bule_button1{
+	float:right; 
+	background:#5faee3; 
+	width:90px;
+	height:34px; 
+	color:#FFF;  
+	font-size:14px; 
+	line-height:34px; 
+	position: absolute;
+    bottom: 20px;
+    right: 40px;
+    text-align: center;
+}
+.bule_button2{
+	float:left; 
+	background:#5faee3; 
+	width:90px;
+	height:34px; 
+	color:#FFF;  
+	font-size:14px; 
+	line-height:34px; 
+	margin-left:252px;
+	text-align:center;
+	margin-top:20px;
+}
+
+.bule_button a:visited{color:#666666;}
+.bule_button1 a:visited{color:#FFF;}

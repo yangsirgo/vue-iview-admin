@@ -1,0 +1,129 @@
+/*±í¸ñÄÚÈÝ*/
+table#businessList tbody td {
+	word-wrap: break-word;
+}
+.refresh-blue{
+    background: url(../../../images/icons/refresh.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.refresh-blue:hover{
+	background: url(../../../images/icons/refresh.png) no-repeat;
+	width:25px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	cursor: pointer;
+	background-position:0px -25px;
+}
+td.details-control {
+    background: url(../../../images/ipmac/details_open.png) no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url(../../../images/ipmac/details_close.png) no-repeat center center;
+}
+
+.operator{
+    background-image: url(../../../images/icons/setting.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+
+span.bgblue{
+	height: 20px;
+    background: #5faee3;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: auto;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+span.status{
+	float: left;
+    height: 17px;
+    border-radius: 17px;
+    padding-left:16px;
+    background-repeat: no-repeat;
+}
+.datalist{
+	font-size:14px;
+}
+.datalist th {
+	
+    height: 26px;
+    background-color: #ffffff;
+    color: #667892;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: Arial,Microsoft YaHei;
+}
+
+.status_serious{
+	width:16px;
+	height:16px;
+	background-color:red;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.status_abnormal{
+	width:16px;
+	height:16px;
+	background-color:#ff8000;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.status_lock{
+	width:16px;
+	height:16px;
+	display: inline-block;
+    background-image: url(../../../images/business/status-forbidden-gary.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.status_unknow{
+	width:16px;
+	height:16px;
+	background-color:#c0c0c0;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.status_normal{
+	width:16px;
+	height:16px;
+	background-color:#66d8db;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+}

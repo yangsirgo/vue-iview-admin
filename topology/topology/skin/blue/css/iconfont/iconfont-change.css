@@ -1,0 +1,59 @@
+/* ==========================================================================
+   覆盖默认的iconfont样式
+   ========================================================================== */
+[class*="icon-"] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-bianji:before {
+  font-size: 15px!important;
+}
+.icon-xitong:before {
+  color: #AEB8C1;
+}
+.icon-duihao1:before {
+  font-size: 16px!important;
+}
+/*.icon-cuohao-copy:before {
+  font-size: 16px!important;
+}*/
+.icon-tuichu:before {
+  font-size: 15px!important;
+}
+.icon-wxbdingwei:before {
+  font-size: 18px!important;
+}
+.icon-tianjia:before {
+  font-size: 16px!important;
+}
+.icon-search:before {
+  font-size: 16px!important;
+  color: #AEAEAE;
+}
+.icon-shanchu:before {
+  font-size: 14px!important;
+}
+.icon-eye:before {
+  font-size: 16px!important;
+}
+.icon-baocun:before {
+  font-size: 16px!important;
+}
+.icon-weibiaoti128:before {
+  font-size: 18px!important;
+}
+.icon-canshupeizhi:before {
+  font-size: 20px!important;
+}
+.table-caozuo-con li .leftload i {
+  color: #6CC0FF;
+  font-size: 14px;
+}
+.table-caozuo-con li:hover .iconfont {
+  color: #fff;
+}
+/*# sourceMappingURL=iconfont-change.css.map */
+/*# sourceMappingURL=iconfont-change.css.map */

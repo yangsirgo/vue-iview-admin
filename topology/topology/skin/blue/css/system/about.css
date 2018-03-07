@@ -1,0 +1,55 @@
+﻿p.version{margin-left:40px;margin-top:20px;}
+.goldlogo{
+background-image:url(../../images/logo-web.png);
+background-repeat:no-repeat;
+width:241px;
+height:61px;
+margin-left:30px;margin-top:30px;
+}
+.explain{font-size:14px; color:#999;margin-left:40px; margin-top:10px;}
+.main{margin-left:40px; margin-top:20px; font-size:14px; color:#999;}
+.main ul li{height:34px;}
+.footer{margin-left:40px; margin-top:100px;color:#999; font-size:14px;}
+
+ul.accessul{
+display:block;
+padding-top:10px;
+padding-left:10px;
+}
+li.accessli{
+padding-left:20px;
+padding-top:4px;
+padding-bottom:4px;
+font-size:14px;
+padding-right:2px;
+margin-bottom:3px;
+background-repeat:no-repeat;
+background-position:2px 7px;
+}
+
+
+li.softimg{
+	background-image:url(../../images/icons/list_permit.png);
+}
+
+li.about{
+	background-image:url(../../images/icons/list_about.png);
+}
+
+.perMouse{
+	cursor: pointer;
+	width: 100%;
+    display: inline-block;
+}
+.timeshow{
+	height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    color: gray;
+    font-size: 14px;
+}
+
+.gray{
+	color:#999;
+}

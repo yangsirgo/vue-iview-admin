@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; border:0; font-family:"Arial","Microsoft YaHei"; font-size:14px}
+ul,li{ list-style:none; padding:0; margin:0}
+.right_below_right_title{
+height:60px;
+width:100%;
+}
+.right_below_right_title ul li.rbrt{
+float:left;
+}
+.right_below_right_title ul li img{
+padding-top:20px;
+}
+.right_below_right_title p{
+float:right;
+margin-right:-60px;
+margin-top:20px;
+width:130px; 
+;
+}
+.right_below_right_title ul li img{
+margin-left:10px;
+}
+.nav_img{
+width:100px; 
+height:40px; 
+float:right;
+margin-right:20px; 
+margin-left:50px;
+}
+
+.nav_img img{
+display:block; 
+float:right; 
+margin-right:25px; 
+margin-top:-15px;
+margin-left:-10px;
+}
+ 
+ /*页签*/
+.wtabs{
+float:left; background:#eee; height:auto; width:100%;}
+
+.wtabbtn{
+width:170px;
+}
+.wtabcon{
+display:none;
+}
+.wintbcon{
+display:none;
+heigth:100%;
+margin-left:120px;
+}
+
+
+/*表格设置按钮弹出下拉菜单*/
+.selectbluebtn1{
+float:left;
+height:25px;
+width: 61px;
+cursor:pointer;
+margin-top:5px;
+}
+
+
+.right_below_right_title div.select-alarm {
+    font-size: 14px;
+    color: #333333;
+    font-family: Microsoft YaHei;
+    line-height: 30px;
+    width:98px;
+    height:28px;
+}
+
+.topLevelTree{
+	position:absolute;
+	overflow:auto;
+	width: 170px;
+	max-height:360px;
+	z-index:100;
+}
+.blue-focus-alarm{
+background-image:url(../../images/icons/blue-focus-alarm.png);
+background-repeat: no-repeat;
+cursor: pointer;
+height: 40px;
+width:40px;
+display:inline-block;
+}
+.blue-integrate-3rd-alarm{
+background-image:url(../../images/icons/blue-integrate-3rd-alarm.png);
+background-repeat: no-repeat;
+cursor: pointer;
+height: 40px;
+width:40px;
+display:inline-block;
+}
+.cursor{
+	cursor: pointer;
+}
+.alarmoperator{
+background-image:url(../../images/icons/setting.png);
+background-repeat: no-repeat;
+cursor: pointer;
+height:16px;
+width:16px;
+display:inline-block;
+}
+.alarmaddgraybtn {
+	
+	background-repeat: no-repeat;
+	cursor: pointer;
+	height:20px;
+	width: 20px;
+    margin-top: 10px;
+    margin-left:8px;
+    display:inline-block;
+}
+
+.select-alarm{
+	height: 30px; width: 100px; margin-top: 15px;cursor:pointer
+}
+.input{
+	height: 28px; width: 240px;margin-left: 5px; padding-left: 3px;
+}
+.hascomment{
+	background-image: url("../../images/icons/list-talk.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	height:16px;
+	width: 16px;
+    display:inline-block;
+	margin-left:8px;
+}
+.showcontent_ul{
+	margin-left:20px;
+	margin-top:15px;
+	width: 540px;
+}
+
+.showcontent_ul li{
+    font-size: 14px;
+    line-height: 36px;
+    margin-left: 30px;
+    width:100%;
+    
+}
+
+.showcontent_ul .showtitle{
+	width:15%;
+	hight:36px;
+	display:inline-block;
+	vertical-align: top;
+	
+}
+
+.showcontent_ul .content{
+	width:80%;
+	hight:36px;
+	display:inline-block;
+	
+}
+
+.attention {
+	background-image: url("../../images/icons/list-attention.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	height:20px;
+	width:40px;
+    margin-top: 8px;
+    display:inline-block;
+}
+
+.tabtil{
+	text-overflow:ellipsis;white-space: nowrap; overflow: hidden;
+	width:90%;height:40px;position:absolute;z-index:2;
+}
+
+.clickpoint:hover{
+	cursor: pointer;
+}
+.option_btn {
+    
+    width: 25px;
+    height: 25px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+.option_btn:hover{
+	background-position:0px -26px;
+}

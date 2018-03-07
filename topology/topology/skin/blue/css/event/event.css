@@ -1,0 +1,166 @@
+.select-event{
+	height:32px; width:100px;
+	cursor:pointer;
+}
+/*弹出层*/
+.topLevelTree{
+	position:absolute;
+	overflow:auto;
+	width: 170px;
+	max-height:200px;
+	z-index:100;
+}
+/*时间控件样式*/
+.timescop{
+  display:inline-block;
+}
+.timeinput{
+	height: 30px; width: 240px;
+	margin-left: 5px;
+	padding-left: 3px;
+}
+.ranges .input-mini {
+    width: 110px;
+}
+/**详细信息展示页面*/
+.timecolor{
+	color:#818181;
+}
+.showcontent_ul{
+	margin-left:20px;
+	margin-top:15px;
+	margin-bottom: 20px;
+	width: 540px;
+}
+
+.showcontent_ul li{
+    font-size: 14px;
+    line-height: 36px;
+    margin-left: 30px;
+    width:100%;
+    
+}
+
+.showcontent_ul .showtitle{
+	width:15%;
+	hight:36px;
+	display:inline-block;
+	vertical-align: top;
+	
+}
+
+.showcontent_ul .content{
+	width:80%;
+	hight:36px;
+	display:inline-block;
+	
+}
+
+
+/*级别颜色*/
+
+.deadlybutton{
+background:#f36266; 
+text-align:center; 
+display:block;
+width:36px; 
+height:22px;  
+line-height:22px; 
+color:#fff;
+font-size:12px;
+
+}
+
+
+.seriousbutton{
+background:#f29730; 
+text-align:center; 
+display:block; 
+width:36px; 
+height:22px;
+line-height:22px; 
+color:#FFF;
+font-size:12px;
+
+}
+.warningbutton{
+background:#f7ca18; 
+text-align:center; 
+display:block; 
+width:36px; 
+height:22px;  
+line-height:22px; 
+color:#fff;
+font-size:12px;
+
+}
+.minorbutton{
+background:#a99e67; 
+text-align:center; 
+display:block; 
+width:36px; 
+height:22px;  
+line-height:22px; 
+color:#fff;
+font-size:12px;
+
+}
+.infobutton{
+background:#38cdd3; 
+text-align:center; 
+display:block; 
+width:36px; 
+height:22px;  
+line-height:22px; 
+color:#fff;
+font-size:12px;
+
+}
+.unknownbutton{
+background:#bfbfbf; 
+text-align:center; 
+display:block; 
+width:36px; 
+height:22px;  
+line-height:22px; 
+color:#fff;
+font-size:12px;
+
+}
+.daterangepicker{display:none;}
+.btn-success {
+    color: #ffffff;
+    background-color: #5faee3;;
+    border-color: #4cae4c;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.btn-default {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+.daterangepicker .ranges .input-mini {
+ width: 100px;
+}
+.pointer{
+	cursor:pointer;
+}

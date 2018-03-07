@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<linearGradient id="08_node_disk_array_SVGID_1_" gradientUnits="userSpaceOnUse" x1="18.9697" y1="55.5156" x2="69.8848" y2="55.5156">
+		<stop  offset="0" style="stop-color:#314F5C"/>
+		<stop  offset="0.5172" style="stop-color:#57798B"/>
+		<stop  offset="1" style="stop-color:#314F5C"/>
+	</linearGradient>
+	<polygon fill="url(#08_node_disk_array_SVGID_1_)" points="18.97,11.031 18.97,100 69.885,100 69.885,11.031 	"/>
+	<polygon fill="#608293" points="29.654,0.073 18.94,11.031 69.885,11.031 81.059,0.073 	"/>
+	<polygon fill="#204A59" points="81.059,89.097 81.059,0.073 69.885,11.026 69.885,99.991 	"/>
+	<rect x="23.011" y="24.841" fill="#EDEDED" width="37.317" height="59.707"/>
+	<rect x="25.498" y="27.683" fill="#608293" width="32.342" height="54.021"/>
+	<rect x="27.861" y="54.576" fill="#204A59" width="1.67" height="8.767"/>
+	<text transform="matrix(1 0 0 1 26.9199 45.8086)" fill="#EDEDED" font-family="'SimHei'" font-size="14.9271">存储</text>
+	<rect x="31.594" y="54.515" fill="#204A59" width="1.67" height="8.768"/>
+	<rect x="35.266" y="54.517" fill="#204A59" width="1.67" height="8.766"/>
+	<rect x="38.82" y="54.456" fill="#204A59" width="1.67" height="8.768"/>
+	<rect x="42.492" y="54.397" fill="#204A59" width="1.67" height="8.767"/>
+	<rect x="46.224" y="54.339" fill="#204A59" width="1.67" height="8.767"/>
+	<rect x="49.896" y="54.339" fill="#204A59" width="1.67" height="8.767"/>
+	<rect x="53.451" y="54.279" fill="#204A59" width="1.67" height="8.767"/>
+	<rect x="27.802" y="66.304" fill="#204A59" width="1.671" height="8.768"/>
+	<rect x="31.533" y="66.244" fill="#204A59" width="1.67" height="8.767"/>
+	<rect x="35.207" y="66.244" fill="#204A59" width="1.67" height="8.767"/>
+	<rect x="38.761" y="66.185" fill="#204A59" width="1.67" height="8.766"/>
+	<rect x="42.433" y="66.126" fill="#204A59" width="1.671" height="8.768"/>
+	<rect x="46.164" y="66.066" fill="#204A59" width="1.672" height="8.766"/>
+	<rect x="49.836" y="66.066" fill="#204A59" width="1.672" height="8.766"/>
+	<rect x="53.391" y="66.007" fill="#204A59" width="1.671" height="8.768"/>
+</g>
+</svg>

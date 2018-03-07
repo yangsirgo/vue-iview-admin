@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<linearGradient id="07_node_firewall_SVGID_1_" gradientUnits="userSpaceOnUse" x1="28.5889" y1="58.5215" x2="52.8047" y2="58.5215">
+	<stop  offset="0" style="stop-color:#314F5C"/>
+	<stop  offset="0.5172" style="stop-color:#57798B"/>
+	<stop  offset="1" style="stop-color:#314F5C"/>
+</linearGradient>
+<path fill="url(#07_node_firewall_SVGID_1_)" d="M28.589,18.069h24.216v80.905H28.589V18.069z"/>
+<path fill="#608293" d="M52.805,18.069H28.589L50.287,0.906H71.41L52.805,18.069"/>
+<path fill="#204A59" d="M71.41,0.906v77.208l-18.605,20.98V18.069L71.41,0.906"/>
+<path stroke="#EDEDED" d="M65.683,19.241V6.255"/>
+<path stroke="#EDEDED" d="M65.683,45.304V32.319"/>
+<path stroke="#EDEDED" d="M65.683,71.596V58.611"/>
+<path stroke="#EDEDED" d="M71.41,65.246L52.805,85.584"/>
+<path stroke="#EDEDED" d="M71.41,52.379L52.805,72.086"/>
+<path stroke="#EDEDED" d="M71.41,39.517L52.805,58.574"/>
+<path stroke="#EDEDED" d="M71.41,26.651L52.805,45.078"/>
+<path stroke="#EDEDED" d="M71.41,13.774L52.805,31.567"/>
+<path stroke="#EDEDED" d="M52.805,85.488H28.589"/>
+<path stroke="#EDEDED" d="M52.805,72.002H28.589"/>
+<path fill="none" stroke="#EDEDED" stroke-miterlimit="10" d="M52.805,58.529H28.589"/>
+<path stroke="#EDEDED" d="M52.805,45.042H28.589"/>
+<path stroke="#EDEDED" d="M52.805,31.556H28.589"/>
+<path stroke="#EDEDED" d="M59.381,91.646V78.602"/>
+<path stroke="#EDEDED" d="M59.381,64.973V51.927"/>
+<path stroke="#EDEDED" d="M59.381,38.561V25.515"/>
+</svg>

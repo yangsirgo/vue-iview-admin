@@ -1,0 +1,409 @@
+@charset "utf-8";
+
+.main_bg{
+	overflow: auto;
+    padding-bottom: 10px;
+}
+
+#scrollbtns {
+	position: absolute;
+	z-index: 130;
+	right: 10px;
+	margin-top: 13px;
+}
+
+.addView {
+	
+	background-repeat:no-repeat;
+	width:18px;
+	height:18px;
+	display:block;
+	overflow:hidden;
+	float: left;
+	cursor: pointer;
+}
+
+.addView:hover {
+	background-position:0px -18px;
+}
+
+.setOption {
+    background-repeat:no-repeat;
+	width:25px;
+	height:25px;
+	display:block;
+	float: right;
+	cursor: pointer;
+}
+.setOption:hover {
+	background-position:0px -26px;
+}
+
+.bigtabtitle {
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.bigtabtitle input {
+	font-size: 16px;
+	height: 17px;
+	display: none;
+}
+
+.bigtabtitle span img {
+	cursor: pointer;
+	display: none;
+	margin-left: 10px;
+	display: none;
+	margin-left: 10px;
+	position: relative;
+	top: 5px;
+}
+
+.bigtabtitle span:HOVER img {
+	display: inline;
+}
+
+.swiper-container-horizontal>.swiper-pagination{
+	top: 15px;
+}
+
+.swiper-pagination{
+	height: 10px;
+}
+
+.addPortlet {
+	width: inherit;
+	height: inherit;
+	background-position: center center;
+	cursor: pointer;
+	display: table-cell;
+	vertical-align: middle;
+}
+.addPorticon {
+    width:28px;
+    height:28px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.portlet_setting{
+	width: inherit;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	cursor:pointer;
+}
+
+.portlet_setting:hover .portlet_del, .portlet_setting:hover .portlet_settingbtn{
+	display: inline;
+}
+
+.portlet_setting img{
+	width: auto;
+	height: auto;
+	margin: 5px;
+}
+
+.portlet_settingbtn{
+	height:24px;
+	width:24px;
+	float: right;
+	margin-right:8px;
+	margin-top:8px;
+	display: none;
+}
+.portlet_settingbtn:hover{
+	background-position:0px -26px;
+	background-repeat:no-repeat;
+}
+
+.portlet_del{
+	height:24px;
+	width:24px;
+	float: right;
+	margin-right:8px;
+	margin-top:8px;
+	display: none;
+}
+.portlet_del:hover{
+	background-position:0px -26px;
+	background-repeat:no-repeat;
+}
+
+.seton {
+	background-image: url(../../images/scroll/list-setting-blue.png);
+}
+
+.addon {
+	background-image: url(../../images/scroll/add-blue.png);
+}
+
+.portlet_chart{
+	width:100%;
+	height:100%;
+}
+
+.status{
+	float: left;
+	width: 16px;
+	height: 16px;
+	border-radius: 16px;
+	margin: auto;
+	margin-left: 6px;
+}
+
+.portlet_box{
+	height:100%;
+	width:100%;
+}
+
+.no_info{
+	color:#fff;
+}
+
+.metricName{
+	text-align: left;
+	overflow: hidden;
+	font-size: 18px;
+	padding: 10px;
+	white-space: nowrap;
+}
+
+.instance{
+	text-align: left;
+	overflow: hidden;
+	font-size: 16px;
+	padding: 0 10px;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.instance span{
+	padding-right: 15px;
+}
+
+.metricValue{
+	text-align: center;
+	width: 100%;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    top: 71px;
+}
+.metricValue_in {
+    position: absolute;
+    font-size: 30px;
+    width: 100%;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+    height: 40px;
+}
+
+.no_value{
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.metricValue_in2 {
+    position: absolute;
+    font-size: 12px;
+    width: 100%;
+    top: 50%;
+    margin-top: -50px;
+    text-align: left;
+    padding: 0 10px;
+    overflow: hidden;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.loading{
+	background-image: url(../../images/topology/load/loading.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.add_box{
+	min-height:200px;
+	min-width:200px;
+}
+
+.null_box{
+	height:60px;
+    position: relative;
+    top: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+}
+
+.topologyBox{
+	position: absolute;
+    top: 40px;
+    width: 100%;
+    bottom: 0;
+}
+
+.frame{
+	width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.metric_box{
+	text-align: center;
+	width: 100%;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    top: 40px;
+}
+.metric_box1{
+	text-align: center;
+	width: 100%;
+    bottom: 80px;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    top: 40px;
+}
+.metric_box2{
+	text-align: center;
+	width: 100%;
+    bottom: 35%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    top: 40px;
+}
+.metric_box_in {
+    position: absolute;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+.metric_box2 table, .metric_box table{
+	height: 100%;
+	width: 100%;
+}
+.metric_box2 table tr td, .metric_box table tr td{
+	white-space: normal;
+    word-break: break-all;
+}
+.metric_box_in1 {
+    width: 100%;
+    margin-top: 10px;
+}
+.pre_history{
+	height: 35%;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.pre_history1{
+	height: 35%;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.pre_history table{
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+	border: none;
+	border-spacing: 0;
+	font-weight: normal;
+	height: 100%;
+}
+.pre_history table tr td{
+	height: 35%;
+	width: 33.3333333%;
+	
+}
+.img_value{
+	width: 100%;
+	height: 100%;
+	font-size: 80px;
+}
+.img_green{
+	color: #38cdd3;
+	position: relative;
+    top: 50%;
+    margin-top: -40px;
+}
+.img_red{
+	color: #F36266;
+	position: relative;
+    top: 50%;
+    margin-top: -40px;
+}
+.img_gray{
+	color: #c8c6c6;
+	position: relative;
+    top: 50%;
+    margin-top: -40px;
+}
+.hz_value{
+	display:none;
+}
+.hz_green{
+	color: #38cdd3;
+}
+.hz_red{
+	color: #F36266;
+}
+.hz_orange{
+	color: #f29730;
+}
+.hz_gray{
+	color: #c8c6c6;
+}
+.sub_pre_title{
+	line-height: 40px;
+	color: #898989;
+	white-space: nowrap;
+    overflow: hidden;
+}
+.sub_pre_value{
+	line-height: 30px;
+	font-size: 16px;
+	white-space: nowrap;
+    overflow: hidden;
+}
+.demo-placeholder {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+.conf_value{
+	font-size: 30px;
+	word-break: break-all;
+}
+.info_value{
+	font-weight: normal;
+}
+.systemInfo{
+	font-size: 16px;
+    text-align: left;
+}
+.info_cont{
+	margin: 0 10px;
+    line-height: 30px;
+}
+.sta_div{
+	margin-right: 15px;
+}

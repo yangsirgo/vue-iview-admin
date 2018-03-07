@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*init*/
+*{margin:0px;padding:0px;}
+body{ padding:0; margin:0; border:0; font-family:"Arial","Microsoft YaHei"; font-size:16px}
+ul,li{ list-style:none; padding:0; margin:0}
+a{ text-decoration:none}
+
+span.highlighting{
+background:url(../images/icons/navi-log_03.png) 16px no-repeat;
+}
+
+#world {position:absolute;width:100%;height:100%;overflow:hidden;}
+/*leftparts z-index 100*/
+
+
+
+
+/*rightpart  z-index 50*/
+#wscreen{
+	background: #fff;
+	height: 950px;
+	width:100%;
+	float: left;
+}
+.wblanktitle{margin-top:15px; margin-bottom:15px; }
+.wblanktitle ul li{
+font-size:14px;
+margin-left:40px;
+float:left;
+}
+span.redstar{color:#F00; vertical-align:middle;}
+.target{height:300px; width:97%; background:#fff; margin-top:15px; margin-left:15px;}
+/*mouseover删除*/
+.rsgDel{
+float:right;
+background-image:url(../images/icons/pop-close.png);
+width:20px;
+height:20px;
+margin-top:12px;
+margin-right:10px;
+cursor:pointer;
+}
+.dataTables_filter {display: none;}
+label.error {diaplay:inline-block;}
+.pointer{
+	cursor:pointer;
+}

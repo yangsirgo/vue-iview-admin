@@ -1,0 +1,390 @@
+@charset "utf-8";
+/*init*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Microsoft YaHei", "黑体", "宋体";
+}
+
+img {
+	border: 0px;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFF;
+}
+.step_title{
+	height: 34px;
+    width: 100%;
+    line-height: 34px;
+    font-size: 14px;
+    color: #5faee3;
+    text-indent: 20px;
+}
+.required {
+    color: red;
+    margin-right: 5px;
+}
+.text_input {
+    border: 1px solid #e5e5e5;
+    height: 30px;
+    width: 280px;
+    font-family: Microsoft YaHei;
+    padding-left: 6px;
+}
+
+.select_input {
+    border: 1px solid #e5e5e5;
+    height: 32px;
+    width: 288px;
+    font-family: Microsoft YaHei;
+    padding-left: 6px;
+}
+
+.v1_table{
+	width: 940px;
+	margin: 20px auto;
+	font-size: 14px;
+}
+
+.setting_box{
+	font-size: 14px;
+}
+
+.add_box{
+	width: 760px;
+	height: 50px;
+	margin: auto;
+}
+
+.add_btn{
+	background: #5faee3;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    color: #FFF;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.setting_cont{
+	margin: 20px 0 20px 0;
+}
+
+.setting_list{
+	width:96%;
+	margin:auto;
+	border-collapse: collapse;
+}
+
+.setting_list tr{
+	border: 1px solid #e5e5e5;
+}
+
+.setting_list th{
+	background: #eeeeee;
+}
+
+.setting_list td, .setting_list th{
+	text-align: left;
+	padding-left: 10px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.v1_table tr{
+	height: 40px;
+}
+
+.label{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.description{
+	font-size:14px;
+	float: left;
+	color: #999;
+}
+
+.v3_table{
+	font-size:14px;
+	width: 96%;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+.v3_table tr{
+	border: 1px solid #e5e5e5;
+}
+
+.v3_table th{
+	background: #eeeeee;
+}
+
+.v3_table td, .v3_table th{
+	text-align: left;
+	padding-left: 10px;
+	height: 30px;
+	line-height: 30px;
+	word-break:break-all; /*支持IE，chrome，FF不支持*/
+	word-wrap:break-word;/*支持IE，chrome，FF*/
+}
+
+.next_btn{
+	float: right;
+    background: #5faee3;
+    width: 90px;
+    height: 30px;
+    margin-right: 20px;
+    color: #FFF;
+    line-height: 30px;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.step_box{
+	height: 65px;
+    width: 100%;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+}
+
+.core_box{
+	width: 500px;
+	font-size: 14px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.core_label{
+	text-align: right;
+	padding-right: 10px;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 100px;
+}
+
+.core_input{
+	float: left;
+    line-height: 30px;
+}
+
+.core_add .add_btn{
+	background: #5faee3;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    color: #FFF;
+    line-height: 30px;
+    float: right;
+    cursor: pointer;
+    float:left;
+    margin-left:30px;
+}
+
+.core_add{
+	width: 800px;
+	font-size: 14px;
+	margin: auto;
+	min-height: 50px;
+}
+
+.resource_list {
+    float: left;
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.resource_ip {
+    float: left;
+    width: auto;
+    padding: 0 10px;
+}
+
+.resource_del {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url(../../images/icons/pop-delete.png) center no-repeat;
+    float: right;
+    margin: 8px 3px;
+}
+
+.parameter{
+	padding-top:27px;
+	width:950px;
+	margin: auto;
+	margin-bottom: 23px;
+}
+.parameter table{
+	border-collapse: collapse;
+}
+.parameter ul{
+	display:block;
+	
+}
+.parameter ul li{
+	margin-left:69px; 
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+}
+.parameter_radio{
+	vertical-align:middle;
+	margin-left:15px;
+	margin-right:5px;
+}
+.parameter_input{
+	border:1px solid #e5e5e5;
+	height:26px;
+	width:40px;
+	font-family:Microsoft YaHei;
+	padding-left:6px;
+	vertical-align:middle;
+}
+.depth{
+    border-top-left-radius:16px; 
+	border-top-right-radius:16px; 
+	border-bottom-left-radius:16px; 
+	border-bottom-right-radius:16px;
+	height:14px;
+	width:400px;
+	float:left;
+	margin-right:20px;
+	margin-top:6px;
+}
+.depthcell{
+	width:79px;
+	float:left;
+	height:14px;
+	text-align:center;
+	line-height:14px;
+	font-size:8px;
+	border-right:1px solid #ccc;
+	cursor:pointer;
+}
+
+.depblue{
+	background-color:#5FAEE3;
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+
+.depfirst{
+	border-top-left-radius:16px; 
+	border-bottom-left-radius:16px;
+}
+.deplast{
+	border-top-right-radius:16px; 
+	border-bottom-right-radius:16px;
+}
+.parametediv{
+	float:left;
+}
+
+.lineopen {
+    width: 34px;
+    height: 34px;
+    background: url(../../images/lineopen.png) center no-repeat;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+.lineclose {
+    width: 34px;
+    height: 34px;
+    background: url(../../images/lineclose.png) center no-repeat;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+.lineup{
+	display: none;
+}
+
+.linedown{
+	display: block;
+}
+
+.v3_setting{
+	margin-bottom: 20px;
+}
+
+.core_setting{
+	margin-bottom: 100px;
+}
+
+.prev_btn{
+	float: right;
+    background: #e1e5ec;
+    width: 90px;
+    height: 30px;
+    margin-right: 20px;
+    line-height: 30px;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.prev_btn img, .next_btn img{
+	top: 2px;
+    position: relative;
+}
+
+.del_btn{
+	width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url(../../images/dataTables/pop-delete-small.png) center no-repeat;
+}
+
+.start_btn{
+    width: 100px;
+    line-height: 34px;
+    text-align: center;
+    background: #5faee3;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.typeBox{
+	width:100%;
+	margin-top: 30px;
+}
+
+.core_add p{
+	color:#5faee3;
+}
+
+.description{
+	color: #989797;
+}
+
+.password_input{
+	border: none;
+	background: none;
+	display: none;
+}

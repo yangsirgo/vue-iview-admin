@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<linearGradient id="16_node_front_end_processor_SVGID_1_" gradientUnits="userSpaceOnUse" x1="11.4424" y1="58.2021" x2="77.0303" y2="58.2021">
+		<stop  offset="0" style="stop-color:#314F5C"/>
+		<stop  offset="0.5172" style="stop-color:#57798B"/>
+		<stop  offset="1" style="stop-color:#314F5C"/>
+	</linearGradient>
+	<path fill="url(#16_node_front_end_processor_SVGID_1_)" d="M11.442,16.404H77.03V100H11.442V16.404z"/>
+	<path fill="#608293" d="M26.724,0.906h65.804L77.031,16.404H11.23L26.724,0.906"/>
+	<path fill="#204A59" d="M77.031,16.404L92.527,0.91v83.598L77.031,100V16.404"/>
+	<path fill="#EDEDED" d="M57.896,19.318h15.825v11.733H57.896V19.318z"/>
+	<path fill="#EDEDED" d="M57.896,33.61h15.825v11.734H57.896V33.61z"/>
+	<path fill="#EDEDED" d="M57.896,84.655h15.825v11.733H57.896V84.655z"/>
+	<path fill="none" stroke="#EDEDED" d="M33.178,16.404L48.629,0.91 M54.496,16.404L69.946,0.91 M33.178,100V16.404 M54.496,100
+		V16.404"/>
+</g>
+</svg>

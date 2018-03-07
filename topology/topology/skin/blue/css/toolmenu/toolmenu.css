@@ -1,0 +1,89 @@
+.tipmenu{
+position:absolute;
+z-index:140;
+
+}
+
+.tipuparrow{
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    
+	z-index:141;
+}
+.tipuparrow:after {
+    position: absolute;
+    display: block;
+    content:"";
+    top: 1px;
+	margin-left: -10px;
+    width: 0;
+    height: 0;
+    
+}
+
+.tipdownarrow{
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+   
+	z-index:141;
+}
+.tipdownarrow:after {
+    position: absolute;
+    display: block;
+    content:"";
+    bottom: 1px;
+	margin-left: -10px;
+    width: 0;
+    height: 0;
+   
+}
+
+
+ul.tipmenulist{
+
+box-shadow: 5px 5px 1px rgba(0,0,0,.2);
+width:160px;
+padding-top:3px;
+padding-bottom:3px;
+
+box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1)  ; 
+	-webkit-box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1)  ; 
+	-moz-box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1)  ; 
+
+}
+
+li.tipmenuli{
+height:35px;
+display:block;
+cursor:pointer;
+}
+
+.tipmenuicon{
+width:35px;
+height:35px;
+background-position:center center;
+background-repeat:no-repeat;
+float:left;
+}
+.tipmenutxt{
+line-height:35px;
+height:35px;
+font-size:14px;
+float:left;
+}
+.dispablegray{
+color:#CCC;
+background-color:#fefefe;
+}
+
+
+
+
+
+
+
+

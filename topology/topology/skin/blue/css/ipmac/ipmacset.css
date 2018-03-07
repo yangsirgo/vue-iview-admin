@@ -1,0 +1,73 @@
+.check_label_span {
+    padding-left: 14px;
+    margin-top: -5px;
+    display: inline-block;
+    font-size: 10px;
+}
+.rltv {
+    position: relative;
+}
+.iconhelp{
+    width: 310px;
+    position: absolute;
+    z-index: 140;
+    left: 215px;
+    display: none;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    top: -4px;
+}
+.btnlistarrow2 {
+    position: absolute;
+    z-index: 150;
+    width: 17px;
+    height: 10px;
+    top: -10px;
+    background-image: url(../images/btnlistarrow2.png);
+    background-repeat: no-repeat;
+    left: 10px;}
+
+.bluegrey_fontcolor{
+	color: #667892;
+}
+
+.hxipcell {
+    display: block;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.hxipname {
+    float: left;
+}
+.hxipdel {
+    background-image: url(../../images/pageform/pop-delete.png);
+    background-position: center center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.userTree{
+	margin-left:20px;
+	margin-top:20px
+}
+
+
+.greyfontcolor:focus{
+	color:#333;
+}
+
+.heightlight{
+	color:#333;
+}

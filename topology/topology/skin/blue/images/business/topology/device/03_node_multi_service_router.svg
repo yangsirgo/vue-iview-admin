@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<linearGradient id="03_node_multi_service_router_SVGID_1_" gradientUnits="userSpaceOnUse" x1="-402.2817" y1="800.1445" x2="-307.415" y2="800.1445" gradientTransform="matrix(1 0 0 1 404.6797 -740.9209)">
+	<stop  offset="0" style="stop-color:#314F5C"/>
+	<stop  offset="0.5172" style="stop-color:#547482"/>
+	<stop  offset="1" style="stop-color:#314F5C"/>
+</linearGradient>
+<path fill="url(#03_node_multi_service_router_SVGID_1_)" d="M97.265,20.728c0,10.183-21.242,18.441-47.433,18.441c-26.191,0-47.434-8.256-47.434-18.441v58.543
+	c0,10.192,21.243,18.448,47.433,18.448c26.189,0,47.434-8.256,47.434-18.448V20.728"/>
+<path fill="#608293" d="M50,39.172c26.188,0,47.434-8.259,47.434-18.442C97.434,10.537,76.191,2.278,50,2.278
+	c-26.191,0-47.433,8.256-47.433,18.45C2.567,30.913,23.812,39.172,50,39.172"/>
+<path fill="#EDEDED" d="M39.172,13.518l3.92,5.871l-14.816,3.425l3.244-2.7L8.632,16.207l5.743-4.301l22.08,3.735L39.172,13.518"/>
+<path fill="#EDEDED" d="M60.003,27.76l-2.67-6.055l13.356-2.668l-2.314,2.075l22.264,3.799l-5.337,4.27L63.17,25.032L60.003,27.76"
+	/>
+<path fill="#EDEDED" d="M52.7,10.302l14.958-4.089l0.182,6.405l-3.736-0.714l-7.303,6.056l-6.97-1.009l7.533-5.924L52.7,10.302"/>
+<path fill="#EDEDED" d="M46.295,33.281l-14.252,2.668l-0.534-6.588l4.1,0.896l7.846-6.699l6.931,1.168l-8.37,7.303L46.295,33.281"/>
+<g>
+	<path fill="#EDEDED" d="M28.847,91.521V79.344l-8.13,5.848L28.847,91.521"/>
+	<path fill="#EDEDED" d="M70.815,44.641v12.164l8.131-5.841L70.815,44.641"/>
+	<path fill="#EDEDED" d="M28.847,57.25V45.077l-8.13,5.853L28.847,57.25"/>
+	<path fill="none" stroke="#EDEDED" stroke-width="6" stroke-miterlimit="10" d="M73.228,85.3H59.271L40.35,50.826H25.902"/>
+	<path fill="none" stroke="#EDEDED" stroke-width="6" stroke-miterlimit="10" d="M25.99,85.255h13.477l18.75-34.31h14.601"/>
+	<path fill="#EDEDED" d="M70.815,79.063v12.172l8.131-5.844L70.815,79.063"/>
+</g>
+</svg>

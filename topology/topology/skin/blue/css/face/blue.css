@@ -1,0 +1,430 @@
+@charset "utf-8";
+body{background-color:#eee;}
+/*顶部*/
+#wtop {background-color: #fff;}
+.hex-discovery {background-image: url(../../images/icons/blue/hex-discovery.png);}
+.hex-user {background-image: url(../../images/icons/blue/hex-user.png);}
+#allscreen { background-image: url(../../images/icons/blue/hex-fullscreen.png);}
+/*左侧菜单*/
+#menus{background-color:#34495e;}
+#menubtn{background-image:url(../../images/icons/blue/menubtn.png);}
+ul.mul1{background-color:#253240;}
+ul.mul2{background-color:#253240;}
+a.listclick {color: #5faee3;background-image:url(../../images/icons/blue/listclick.png) ;}
+a.listclick_noicon {color: #5faee3;}
+.listhover{background-image:url(../../images/icons/blue/listhover.png);}
+.listhover2{background-image:url(../../images/icons/blue/listhover.png);}
+.li_on{background-color:#2C3E50;}
+.li_on1{background-color:#2C3E50;}
+.icon1{background-image:url(../../images/icons/navis/blue-navi-home.png);}
+.icon2{background-image:url(../../images/icons/navis/blue-navi-network.png);}
+.icon3{background-image:url(../../images/icons/navis/blue-navi-monitor.png);}
+.icon4{background-image:url(../../images/icons/navis/blue-navi-log.png);}
+.icon5{background-image:url(../../images/icons/navis/blue-navi-alarm.png);}
+.icon6{background-image:url(../../images/icons/navis/blue-navi-report.png);}
+.icon7{background-image:url(../../images/icons/navis/blue-navi-system.png);}
+.icon8{background-image:url(../../images/icons/navis/blue-navi-search.png);}
+.icon9{background-image:url(../../images/icons/navis/blue-navi-business.png);}
+.icon10{background-image:url(../../images/icons/navis/blue-navi-serve.png);}
+/*总体*/
+.main_bg {background-color: #eee;}
+.main_bg2 {background-color: #fff;}
+.bgcolor1{background-color:#fff;}
+.bgcolor2{background-color:#eee;}
+.iptbg{border:1px solid #e5e5e5;}
+select{border:1px solid #e5e5e5;}
+textarea{border:1px solid #e5e5e5;}
+/*首页*/
+.bigtabtitle{color:#34495e;}
+.addView {background-image: url(../../images/icons/blue/small-add.png);}
+.setOption {background-image: url(../../images/icons/blue/setting.png);}
+.portlet_title{color: #5FAEE3;}
+.portlet_settingbtn{background-image: url(../../images/icons/blue/instrument.png);}
+.portlet_del{background:url(../../images/icons/blue/small-delete-white.png);}
+.gridster .gs-w {background: #FFF;}
+.pre_history table tr td{background-color:#f5f5f5;}
+.pre_history table tr td:nth-child(2){border-left: 2px solid #fff;border-right: 2px solid #fff;}
+.null_box{background-image: url(../../images/icons/blue/nodata.png);}
+.addPorticon {background-image: url(../../images/icons/blue/add-portlet_gray.png);}
+.addPorticon:hover{background-image: url(../../images/icons/blue/add-portlet_hover.png);}
+/*弹窗*/
+#facewindow{}
+.openwindowtitle{background-color:#f7f7f7;color:#000;}
+.openwindowtitleclose{background-image: url(../../images/icons/blue/pop-close.png);}
+// .openwindowtitleclose:hover{background-image: url(../../images/icons/blue/pop-close-on.png);}
+.openwindow{background-color:#fff;}
+.openwindowbtns{background-color:#f7f7f7}
+.cancelbtn{ background-color:#e1e5ec;color:#000}
+.cancelbtn:hover{background-color:#ddd;}
+.questionwin{color:#000}
+.openwindowcontent{}
+.openwindowcontentcenter{color:#000}
+.inboxtitle{background-color:#e5e5e5;}
+#result{border:1px solid #e5e5e5}
+.infoTable{}
+.frequency{border:1px solid #e5e5e5;}
+.frequencygray{color:#ccc;}
+.showcontent{}
+.commentary_send{background-color:#e9eff3}
+.send_input{border:1px solid #e5e5e5;}
+.policyInfoBox{}
+.resource_title{background-color: #f0f0f0;}
+.portinfotitle {background-color: #f5f5f5;}
+.alarmDetail{}
+.confirmtime{color:#5faee3;}
+/*内页*/
+#inlefttreetitle{background-color:#f0f0f0;}
+#inrighttitle{background-color:#f0f0f0;}
+#inright {background-color: #fff;border-left: 1px solid #e9e9e9;}
+#inlefttree{background-color:#fff}
+#inlefttreename input{background-color:#f0f0f0;color:#000}
+#inrightname{color:#000}
+li.accessli{}
+li.cursor{color:#000}
+.accesslion{background-color:#e1e1e1;}
+.indatalisttitle{background-color:#f0f0f0;}
+.indatalisttitle2{background-color:#f0f0f0;}
+.wintbcon_left{border:1px solid #f0f0f0}
+.wintbcon_right{border:1px solid #f0f0f0}
+.wconbox_white{border:1px solid #f0f0f0}
+.list_gary{background-color:#f0f0f0;}
+.pageformcontent{background-color:#f4f4f4;}
+.pageformcontent_d{background-color:#fff;}
+#inrightcontent{background-color:#fff;}
+.btnname1{}
+.ipsettinginfo{}
+.inminbox {border: 1px solid #e5e5e5;}
+.inminboxtitle{background-color:#eee}
+/*datatable*/
+.dataTables_wrapper{background-color:#fff;}
+.dataTables_scrollBody{background-color:#fff;}
+tr.odd{background-color:#f8f9fa;}
+tr.even{background-color:#fff;}
+table.dataTable thead tr {background-color:#fff;}
+table.dataTable tbody tr:hover {background-color:#E4EAF1;}
+table.dataTable tbody tr td table tr:hover {background-color:#fff;}
+table.dataTable th, table.dataTable td{color:#000;}
+table.dataTable tbody tr:hover {background-color:#eee;}
+table.dataTable tr th:hover{background-color:#E4EAF1}
+table.dataTable tr td:hover{}
+table.dataTable thead th, table.dataTable thead td{color:#667892;}
+table.dataTable thead .sorting{background-image:url(../../images/dataTables/sort_both.png);}
+span.list_blue{background-color:#5faee3;}
+.dataTables_blackline {background-color:#f0f0f0;}
+.dataTables_info{color:#000}
+.dataTables_wrapper .dataTables_length select{}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{background-color:#5eafe3;color:#fff;}
+.dataTables_wrapper .dataTables_paginate{background-color:#fff}
+.dataTables_wrapper .dataTables_paginate .paginate_button{}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{background-color:#5eafe3;color:#fff;}
+.datalist th{ background-color:#ffffff;color: #667892;}
+.digray {background-color: #f8f9fa;}
+tr.tron{background-color:#D7EDFB;}
+.datalist td select{border: 1px solid #e5e5e5;}
+/*ztree*/
+.ztree li a{color:#000;}
+.ztree li a.curSelectedNode{background-color:#e1e1e1;color:#000;}
+.ztree li span.button.root_open{background-image:url("../../images/ztree/blue/root_open.png");}
+.ztree li span.button.root_close{background-image:url("../../images/ztree/blue/root_close.png");}
+.ztree li span.button.roots_open{background-image:url("../../images/ztree/blue/roots_open.png");}
+.ztree li span.button.roots_close{background-image:url("../../images/ztree/blue/roots_close.png");}
+.ztree li span.button.center_open{background-image:url("../../images/ztree/blue/center_open.png");}
+.ztree li span.button.center_close{background-image:url("../../images/ztree/blue/center_close.png");}
+.ztree li span.button.bottom_open{background-image:url("../../images/ztree/blue/bottom_open.png");}
+.ztree li span.button.bottom_close{background-image:url("../../images/ztree/blue/bottom_close.png");}
+.ztree li span.button.center_docu{background-image:url("../../images/ztree/blue/center_docu.png");}
+.ztree li span.button.bottom_docu{background-image:url("../../images/ztree/blue/bottom_docu.png");}
+.ztree li span.button.roots_docu{background-image:url("../../images/ztree/blue/roots_docu.png");}
+.ztree li ul.line{background-image:url("../../images/ztree/blue/line_conn.gif");}
+/*wtab*/
+.wtabs{background-color:#f0f0f0}
+.wtabbtns{}
+.wtabbtn{border-top: 3px solid transparent;}
+.wtabbtnon {background-color: #FFF;border-top: 3px solid #5faee3;color: #000;}
+.alarmaddgraybtn{background-image: url(../../images/icons/blue/tab-add.png);}
+.syslog_title{background-color: #FFF;}
+.wtabcons{background-color:#fff}
+.wtabwhitebtnon {background-color: #fff;border-top: 3px solid #5faee3;color: #000;}
+.inwtabbtn{}
+ul.wtabbtnlist{background-color:#f4f4f4;}
+ul.bgwhite{background-color:#fff;}
+ul.wtabbtnlist li:hover{background-color:#f9f9f9;}
+/*form*/
+.right_below_right_title{background-color:#fff}
+.select-alarm{border: 1px solid #e5e5e5; }
+input.pfsearchlist{background-color: #fff;border: 1px solid #e5e5e5;}
+.topLevelTree{background-color:#FFF;border:1px solid #ccc;}
+input.pfsearch{border: 1px solid #e5e5e5;background-color:#fff;color: #c3c3c3;}
+.topLevelDepart{background-color:#fff;border:1px solid #ccc;}
+input.pfsearch:hover{background-color:#f9f9fb;}
+input.pfsearch_radius{border: 1px solid #f9f9fb;background-color:#f9f9fb;}
+input.pfsearch_radius:hover{border: 1px solid #fff;background-color:#fff;}
+.basic_input{border:1px solid #e5e5e5;}
+.pftxtarea{border:1px solid #e5e5e5;}
+.pflabel{color:#000}
+.pfinput{border:1px solid #e5e5e5}
+.pfselect{border:1px solid #e5e5e5}
+.pfwindowform{color:#000;}
+.textinput{border:1px solid #e5e5e5}
+.select-event{border:1px solid #e5e5e5}
+#viewAlarmtimescope{}
+.chooseCurrent{}
+table.pfwindowforms td{}
+select.pointer{border:1px solid #e5e5e5}
+.find_failur_txt{border:1px solid #e5e5e5}
+.form-control{background-color:#fff;border:1px solid #ccc;}
+.input-group-addon{background-color:#e5e5e5;border:1px solid #ccc;}
+.report_select{border:1px solid #e5e5e5;}
+.restextarea{background-color:#e5e5e5;border:1px solid #ccc;}
+.range{border: #e5e5e5 1px solid;}
+.timeinput{border:1px solid #e5e5e5;}
+.edit_box{border:1px solid #e5e5e5;}
+/*右肩按钮*/
+.refresh{background-image: url(../../images/icons/blue/refresh.png);}
+.option_btn{background-image: url(../../images/icons/blue/blue-operation.png);}
+.gear{background-image: url(../../images/icons/blue/setting.png);}
+.syslog_addtable{background-image: url(../../images/icons/blue/add-table.png);}
+.syslog_delete{background-image: url(../../images/icons/blue/small-delete.png);}
+.syslog_export{background-image: url(../../images/icons/blue/event-export.png);}
+.syslog_add {background-image: url(../../images/icons/blue/small-add-white.png);}
+.syslog_caozuo{background-image:url(../../images/icons/blue/operation-white.png);}
+.del_btn{background-image:url(../../images/icons/blue/small-delete.png);}
+.clear_btn{background-image:url(../../images/icons/blue/empty.png);}
+.export_btn{background-image:url(../../images/icons/blue/event-export.png);}
+.add-blue{background-image: url(../../images/icons/blue/small-add-white.png);}
+.delete-blue{background-image: url(../../images/icons/blue/small-delete-white.png);}
+.save-blue {background-image: url(../../images/icons/blue/save.png);}
+.emptyaddicon{background-image: url(../../images/icons/blue/small-add-white.png);}
+.add_icon_select{background-image: url(../../images/icons/blue/small-add-white.png);}
+.delete_icon_select{background-image: url(../../images/icons/blue/small-delete-white.png);}
+.add_icon_disable{background-image: url(../../images/icons/blue/small-add_disable.png);}
+.delete_icon_disable{background-image: url(../../images/icons/blue/small-delete_disable.png);}
+#inrightctrl table tr td{}
+.add_report_title{}
+/*下拉菜单*/
+ul.btnselectorlist{border: 1px solid #efefef;background-color: #f9f9fb;box-shadow: 5px 5px 1px rgba(0, 0, 0, .2);}
+.btnlistarrow1{background-image:url(../../images/icons/blue/btnlistarrow.png) ;}
+ul.btnselectorlist li a{ color: #6d6d6d;}
+.grayon{background:#EEE;}
+ul.tipmenulist{background-color:#f9f9fb;border:1px solid #f9f9fb;color: #6d6d6d;}
+li.tipmenuli:hover{background-color:#efefef;}
+.tipuparrow{border-color: transparent;border-style: solid;border-width: 11px;border-bottom-color:#efefef; border-top-width: 0;}
+.tipuparrow:after{border:10px solid transparent;border-bottom-color:#f9f9fb;border-top-width:0;}
+.tipdownarrow{border:11px solid transparent;border-top-color:#efefef;border-bottom-width:0;}
+.tipdownarrow:after{border:10px solid transparent;border-top-color:#f9f9fb;border-bottom-width:0;}
+/*portalet*/
+.selected{background-color:#f4f4f4;}
+.main_txt ul li:HOVER{background-color:#f4f4f4;}
+.main_left_txt{color:#000;}
+.main_right_content {background-color:#5faee3;}
+.commit_resource{background-color:#e5e5e5;}
+.button_block{background: #e5e5e5;}
+.input_title{background-color: #fff;border: 1px solid #e5e5e5;}
+.time_range{background-color: #fff;border: 1px solid #e5e5e5;}
+.search_term{background-color: #fff;border: 1px solid #e5e5e5;}
+.category_tree{background-color:#FFF;border:1px solid #ccc;}
+.metric_box table{}
+.metric_box table tr{}
+.metric_box table tbody tr:nth-child(odd){background-color:#f6f6f6;}
+.metric_list{background-color:#eee;}
+table.metric_list tr{}
+table.metric_list tr:nth-child(odd){background-color:#f6f6f6;}
+.info_value{color:#3c3c3c;}
+.resource_list{background-color:#eee;}
+.hxipcell{background-color:#eee;}
+.preview{border: 5px solid #dddddd;}
+.line_style{background-color:#e5e5e5;}
+/*资源详情*/
+.con_block{}
+.monitor_charts{background-color:#eff3f3;}
+.runtimer {color: #4f4f4f;}
+.winfobtn{background-image:url(../../images/icons/blue/hex-info.png);}
+.celue{}
+.ip_list select{border: 1px solid #e5e5e5;}
+.datagrade table th{background-color: #f6f6f6;}
+.pinkboxtitle{background-color: #f2dede;border: 1px solid #EBCCD1;}
+.pinkboxname{color: #A94442;;}
+.datagrade table tr{border-top: 1px solid #dddddd;}
+.datagrade table tr:hover{background-color:#e5e5e5;}
+.datagradepink{border: 1px solid #EBCCD1;border-top: 0px;}
+.datagrade table td{color: #828282;}
+.grayboxtitle {background-color: #e5e5e5;border: 1px solid #dddddd;}
+.datagrade{border: 1px solid #dddddd;}
+.component_box{border: 1px solid #dddddd;}
+.inwtabcon{background-color: #f0f0f0;}
+.inwtabcons{border-top: 1px solid #dddddd;}
+.inwtabbtnon{
+border-top:3px solid #5faee3;
+color:#000;}
+.interfacelist{border: 1px solid #dddddd;background-color:#fff;}}
+.interfacelist ul li{border-bottom: 1px solid #eee;}
+.interfacelist ul li:hover{background: #eee;}
+.interfacelist .sel_list{background: #e5e5e5;}
+.subtitle{color:#000;}
+.timeItem{background-color: #e9f1f8;}
+.item_selected{background-color: #5FAEE3;color: #fff;}
+.innerTable thead th, .innerTable tbody td{background-color: #f6f6f6;}
+.cancle_btn{color:#222;}
+/*编辑策略*/
+.pageformtitle{}
+#resInsList_wrapper .dataTables_scrollBody {bottom: 0px;border-bottom: 15px solid #eee;}
+#resInsListSelected_wrapper .dataTables_scrollBody {bottom: 0px;border-bottom: 15px solid #eee;}
+.datalisttable{background-color:#FFF;}
+.datalist td a {color: #000;}
+.datalist1 {background-color: #ffffff;border: 1px solid #dddddd;}
+.datalist1 th {color: #667892;}
+.policyselect {border:1px solid #e5e5e5;}
+.policyinput {border:1px solid #e5e5e5;}
+.timepicers {background-color: #eee;}
+.timepicer {}
+.tdrowspan{border-right:1px solid #ddd}
+.add-blue-small {background-image: url(../../images/inpage/blue-add-small.png);}
+/*发现*/
+.label{}
+.label1{}
+.label2{}
+.parameter{}
+.core_label{}
+.text_input{border: 1px solid #e5e5e5;}
+.text_input1{border: 1px solid #e5e5e5;}
+.select_input{border: 1px solid #e5e5e5;}
+.setting_list th{background-color: #eeeeee;}
+.setting_list tr {border: 1px solid #e5e5e5;}
+.v3_table tr{border: 1px solid #e5e5e5;}
+.v3_table th{background-color: #eeeeee;}
+.depth{border: 6px solid #E5E5E5;}
+.parameter_input{border:1px solid #e5e5e5;}
+.typeBox hr{border:1px solid #eeeeee;}
+.step_box{ background-color: #eeeeee;}
+.find_box{}
+.step_title{background-color:#eee;}
+.singlemenulist{background-color:#f2f2f2;}
+.step_title{}
+.download_btn{background-color:#e1e5ec;}
+.upload_btn{background-color:#e1e5ec;}
+.core_setting{}
+.path_input{border: 1px solid #e5e5e5;}
+.zhidu ul li{color: #000;}
+/*单个发现*/
+a.ma0_s{color: #000;}
+a.ma1_s{color: #000;}
+a.ma1_s{color: #000;}
+ul.mul1_s{background-color:#f2f2f2;}
+ul.mul2_s{background-color:#f2f2f2;}
+.li_on_s{background-color:#eaeaea;}
+.li_on1_s{background-color:#eaeaea;}
+.main_right_button {}
+.find_premise_main{}
+.port_main{}
+.setting_table{}
+.main_right_title{}
+.main_right_title1{}
+/*拓扑图*/
+.topologyCanvasToolBar {border-top: 1px solid #e0e0e0;background-color: #f5f5f5;}
+.geToolbarContainer {border-bottom: 1px solid #e0e0e0;background-color: #f5f5f5;}
+.geToolbarContainer .geSeparator {background-color:#e5e5e5;}
+.ui-accordion .ui-accordion-content{background-color:#f5f5f5;}
+.resource {border: 1px solid #eee;background-color: #F5F5F5;}
+.lastcolorline{border-top: 1px solid #DBDBDB;border-bottom: 1px solid #DBDBDB;}
+.othercolor {border-left: 1px solid #DBDBDB;}
+.topuwintitle {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    border-bottom:1px solid #e5e5e5;
+    background-color:#e5e5e5;
+    color: #000;
+}
+.ui-state-default, .ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border-bottom:1px solid #e5e5e5;
+    background-color:#f5f5f5;
+    color: #222;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover,
+.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+{
+    border-bottom:1px solid #eee;
+    background-color:#eee;
+    font-weight: bold;
+    color: #666;
+}
+#warninglist {
+    background-color: #FFF;
+    position: absolute;
+    left: 204px;
+    height:190px;
+    bottom: 0px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+div.btnselectorlist1{
+    border: 1px solid #efefef;
+    display: block;
+    background-color: #FFF;
+}
+div.btnselectorlist1title {
+    background-color: #e5e5e5;
+}
+.ui-spinner-input{color: #000;}
+.jqCtxMenu{background-color: #fff;}
+.jqCtxMenu li{}
+.jqCtxMenu li ul {
+    background-color: #fff;
+    border: 1px solid #efefef;
+}
+.jqCtxMenu li ul {
+    background-color: #fff;
+    border: 1px solid #efefef;
+}
+.jqCtxMenu li.hover {
+    background-color:#e2ecf5;
+}
+#eagleEye{background-color:#eee}
+#eagleEye-content{background-color:#fff}
+#eagleEye-zoom{color:#222;}
+.pleaselogin{color:#222;font-size:14px;}
+.pleaselogin a{color:#5faee3;}
+html div.mxPopupMenu{background-color:#f5f5f5}
+.topologyCanvas{background-color:#fff}
+.geSprite{background-image:url(../../images/topology/toolbar/toolbaricons.png);}
+/*loading*/
+.openloadingwindow {background-image:url(../../images/window/loadingback.png);}
+/*ipmac*/
+.greyfontcolor{color:#c3c3c3;border: 1px solid #e5e5e5;}
+.greyfontcolor2{color:#c3c3c3;border: 1px solid #e5e5e5;}
+td.details-control{background-image:url(../../images/icons/blue/details_open.png);}
+tr.shown td.details-control{background-image:url(../../images/icons/blue/details_close.png);}
+span.halving{background-color:#e5e5e5;}
+/*picker*/
+.input{background-color: #fff;border: 1px solid #e5e5e5;}
+.daterangepicker{background-color:#e5e5e5;}
+.daterangepicker .calendar-date{background-color:#fff;}
+.daterangepicker .calendar th, .daterangepicker .calendar td{}
+.daterangepicker td.in-range{}
+.moreimage{background: url(../../images/icons/blue/blue-operation.png) no-repeat;}
+/*chrome滚动条*/
+::-webkit-scrollbar-track-piece{
+ -webkit-border-radius:0;
+}
+::-webkit-scrollbar{
+ width:8px;
+ height:8px;
+}
+::-webkit-scrollbar-thumb{
+ height:50px;
+ background-color:#ccc;
+ -webkit-border-radius:4px;
+ outline-offset:-2px;
+ border: 2px solid #ccc;
+}
+::-webkit-scrollbar-thumb:hover{
+ height:50px;
+ background-color:#ccc;
+ -webkit-border-radius:4px;}
+  ::-webkit-scrollbar-corner{
+ background-color:#ccc;
+ }

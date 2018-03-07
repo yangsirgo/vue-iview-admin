@@ -1,0 +1,33 @@
+td.warnword {
+	height: 28px;
+	line-height: 28px;
+	padding-left: 10px;
+}
+
+td.warnword span {
+	font-size: 13px;
+}
+
+span.warnlevel0 {
+	color: #a8a7a7;
+}
+
+span.warnlevel1 {
+	color: #38cdd3;
+}
+
+span.warnlevel2 {
+	color: #b59b04;
+}
+
+span.warnlevel3 {
+	color: #e0be32;
+}
+
+span.warnlevel4 {
+	color: #f49730;
+}
+
+span.warnlevel5 {
+	color: #f36266;
+}

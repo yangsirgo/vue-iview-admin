@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*评注*/
+.commentary{
+	padding-top:20px;
+}
+.commentary ul li{
+	font-size:14px;
+	margin-left:30px;
+	line-height:26px;
+}
+.date_txt{
+	margin-left:20px;
+	font-weight:normal;
+}
+
+.name_txt{
+	color:#5faee3;
+	font-weight:bold;
+}
+span.halving{
+	height:1px;
+	width:100%;
+	display:block;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.commentary_send{
+	height:50px;
+	margin:50px 20px 50px 20px;
+	width:auto;
+}
+.send_input{
+	height:32px;
+	width:500px;
+
+	margin-left:10px;
+	margin-top:8px;
+	background-image:url(../images/icons/send_icon.png);
+	background-repeat:no-repeat;
+}
+span.send_button{
+	height:34px;
+	width:50px;
+	text-align:center;
+	line-height:34px;
+	background:#5faee3;
+	display:block;
+	font-size:14px;
+	color:#fff;
+	float:right;
+	margin-right:10px;
+	margin-top:8px;
+	
+}
+
+
+
+
